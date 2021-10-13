@@ -8,9 +8,6 @@ description: >
   diseases, I am passionate about medicine and have actively worked on
   leveraging data analytics to inform local-decision making by physicians and
   showcasing the effect of more holistic and personalized treatment.
-  
-  medicine and have worked on several data
-  analysis projects over the years.
 text_align_left: true
 
 image_left: false

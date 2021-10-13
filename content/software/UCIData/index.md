@@ -7,9 +7,11 @@ categories:
 date: "2017-01-01"
 draft: false
 excerpt: >
-  A package for running analysis for N of 1 study trials. Runs Bayesian linear
-  regression, ordinal/logistic regression, and poisson regression. Includes
-  different plots to visualize the results and raw data.
+  A package for accessing UCI Machine Learning Repository data sets inside
+  Julia. The UCI ML repository is a useful source for machine learning data sets
+  for testing and benchmarking, but the format of the data sets is not
+  consistent. The aim of this pacakge is to convert the data sets into a common
+  format.
 links:
 - icon: github
   icon_pack: fab

@@ -30,8 +30,8 @@ enableEmoji = true
 [params]
   orgName = "Aris Paschalidis"
   orgLocal = ""
-  description = "A modern, beautiful, and easily configurable blog theme for Hugo."
-  favicon = "/img/favicon-nb/favicon.ico"
+  description = "Aris Paschalidis' personal website."
+  favicon = "/img/favicon-nb/favicon-32x32.png"
   logo = "/img/logo-nb.png"
   mainSections = ["publications", "software", "blog"]
   navallcaps = true
@@ -41,9 +41,9 @@ enableEmoji = true
   socialInFooter = true
   # Default image for social sharing and search engines.
   # Place image file in `static` folder and specify image name here.
-  sharing_image = "/img/papillons.jpg"
+  # sharing_image = "/img/papillons.jpg"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
-  twitter = "apreshill"
+  # twitter = "apreshill"
 
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
@@ -87,6 +87,10 @@ enableEmoji = true
   # Icon pack "far" includes regular icons, see: https://fontawesome.com/icons?d=gallery&s=regular&m=free
   # Icon pack "ai" includes Academicons, see: https://jpswalsh.github.io/academicons/
   [[params.social]]
+      icon      = "linkedin" # icon name without the 'fa-'
+      icon_pack = "fab"
+      url       = "https://www.linkedin.com/in/arisp99/"
+  [[params.social]]
       icon      = "github" # icon name without the 'fa-'
       icon_pack = "fab"
       url       = "https://github.com/arisp99"
@@ -98,6 +102,7 @@ enableEmoji = true
       icon = "google-scholar"
       icon_pack = "ai"
       url = "https://scholar.google.com/citations?hl=en&user=i6OmoAoAAAAJ"
+
 #  [[params.social]]
 #      icon      = "facebook-square" # icon name without the 'fa-'
 #      icon_pack = "fab"
@@ -110,10 +115,10 @@ enableEmoji = true
 #      icon      = "twitter" # icon name without the 'fa-'
 #      icon_pack = "fab"
 #      url       = "https://twitter.com/hashtag/apéro"
-#  [[params.social]]
-#      icon      = "rss" # icon name without the 'fa-'
-#      icon_pack = "fas"
-#      url       = "/blog/index.xml"
+  [[params.social]]
+      icon      = "rss" # icon name without the 'fa-'
+      icon_pack = "fas"
+      url       = "/blog/index.xml"
 
 [taxonomies]
   category = "categories"

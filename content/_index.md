@@ -2,16 +2,20 @@
 title: Aris Paschalidis
 subtitle: Bioinformatician at the Bailey Lab, Brown University
 description: >
-  Sit down, relax, and get to know Hugo Apéro. Built on top of Blogophonic,
-  we wanted to create a polished Hugo theme with the right features for a true personal
-  website. We set out to create a theme that is a pleasure to learn, and one that
-  helps others get to know you better. It is more than a blog, with flexible custom
-  layouts that help you introduce yourself online.
+  I am a bioinformatician at the [Bailey Lab](http://www.baileylab.org/) at
+  Brown University. I work on developing software to study the genetics and
+  genomics of infectious disease and immunity. In addition to infectious
+  diseases, I am passionate about medicine and have actively worked on
+  leveraging data analytics to inform local-decision making by physicians and
+  showcasing the effect of more holistic and personalized treatment.
+  
+  medicine and have worked on several data
+  analysis projects over the years.
 text_align_left: true
 
 image_left: false
 images:
-- img/revoir.jpg
+- img/data-genomics.jpeg
 
 show_social_links: true
 

@@ -56,7 +56,7 @@ counties from the years of 2008 till 2017.
 
 #### Data
 The data is detailed in full in the associated help pages, but we summarize the
-datasets below:
+data sets below:
 
 * `county_vaccination` is a dataset containing information about vaccination
 rates of K-12 students for each CA county for the years of 2008-2017. The

@@ -14,7 +14,7 @@ links:
 - icon: book-open
   icon_pack: fas
   name: website
-  url: https://arisp99.github.io/CAvaccines/
+  url: https://cavaccines.arispas.com/
 - icon: github
   icon_pack: fab
   name: code

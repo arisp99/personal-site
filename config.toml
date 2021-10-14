@@ -1,4 +1,4 @@
-baseURL = "www.arispas.com"
+baseURL = "https://www.arispas.com"
 theme = "hugo-apero"
 languageCode = "en"
 title = "Personal Site"

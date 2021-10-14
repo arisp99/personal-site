@@ -26,8 +26,8 @@ The goal of CAvaccines is to analyze the relationship between vaccination rates
 and infectious disease incidence in California counties.
 
 ## Installation
-To install the package, please run the code below. In order to install, devtools
-must be installed and loaded.
+To install the package, please run the code below. In order to install,
+`{devtools}` must be installed.
 
 ```r
 # install.packages("devtools")

@@ -50,7 +50,7 @@ outbreaks are not fully understood.
 #### Aims
 The aim of this package, therefore, was to provide a system for understanding
 the relationship between vaccination rates and disease incidence. The package 
-focuses on the state of California, USA and provides two main datasets, one 
+focuses on the state of California, USA and provides two main data sets, one 
 for vaccination rates, and one for disease incidence of pertussis in California 
 counties from the years of 2008 till 2017.
 

@@ -23,9 +23,11 @@ jobs:
 
       - uses: r-lib/actions/setup-renv@v1
 
-      - uses: r-lib/actions/setup-r-dependencies@v1
-        with:
-          extra-packages: rmarkdown
+      - name: Install rmarkdown
+        run: |
+          install.packages("pak")
+          pak::pkg_install("rmarkdown")
+        shell: Rscript {0}
 
       - name: Render Rmarkdown files
         run: |

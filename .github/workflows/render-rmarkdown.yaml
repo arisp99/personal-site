@@ -25,7 +25,7 @@ jobs:
 
       - name: Install rmarkdown
         run: |
-          install.packages("pak")
+          install.packages("pak", repos = "https://r-lib.github.io/p/pak/dev/")
           pak::pkg_install("rmarkdown")
         shell: Rscript {0}
 

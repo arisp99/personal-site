@@ -1,4 +1,4 @@
-baseURL = "https://arispas.netlify.app"
+baseURL = "www.arispas.com"
 theme = "hugo-apero"
 languageCode = "en"
 title = "Personal Site"

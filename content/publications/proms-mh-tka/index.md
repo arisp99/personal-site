@@ -11,7 +11,8 @@ tags:
   - Mental Health
   - TKA
 
-summary: 'Proof-of-concept study detailing how Electronic Health Record (EHR) data can be leveraged to study the impacts of environmental disasters like widespread exposure to perfluoroalkyl substances (PFAS).'
+summary: 'A study investigating the effect of preoperative mental health on
+postoperative physical function following total knee arthroplasty.'
 
 links:
 - icon: doi
@@ -20,7 +21,7 @@ links:
   url: https://doi.org/10.1016/j.arth.2020.10.031
 ---
 
-## Abstract 
+## Abstract
 
 **Background:**
 Despite the effectiveness of total knee arthroplasty (TKA), patients often have

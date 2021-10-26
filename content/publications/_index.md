@@ -1,7 +1,7 @@
 ---
 title: Publications
 description: "This is home for my research publications, each linked with the
-  full text and any posters.\n"
+  full text.\n"
 author: Aris Paschalidis
 
 # for listing page layout
@@ -25,7 +25,7 @@ cascade:
     show_sidebar_adunit: false # show ad container
 ---
 
-** No content below YAML for the blog _index. This file provides front matter
+** No content below YAML for the blog \_index. This file provides front matter
 for the listing page layout and sidebar content. It is also a branch bundle, and
 all settings under `cascade` provide front matter for all pages inside
 publications/. You may still override any of these by changing them in a page's

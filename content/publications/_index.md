@@ -1,7 +1,6 @@
 ---
 title: Publications
-description: "This is home for my research publications, each linked with the
-  full text.\n"
+description: "This is home for my research publications.\n"
 author: Aris Paschalidis
 
 # for listing page layout

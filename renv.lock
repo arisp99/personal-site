@@ -3,7 +3,7 @@
     "Version": "4.1.1",
     "Repositories": [
       {
-        "Name": "https://cloud.r-project.org",
+        "Name": null,
         "URL": "https://cloud.r-project.org"
       }
     ]

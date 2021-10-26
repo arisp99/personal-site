@@ -5,7 +5,9 @@ date: 2021-04-01
 slug: promis-mh-tka
 
 categories:
-- Research
+  - Journal Articles
+  - Poster Presentation
+  - Research
 tags:
   - PROMIS
   - Mental Health

@@ -5,6 +5,7 @@ date: 2020-10-15
 slug: covid-study
 
 categories:
+  - Journal Articles
   - Research
 tags:
   - COVID-19

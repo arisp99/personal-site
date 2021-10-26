@@ -5,6 +5,7 @@ date: 2017-11-03
 slug: optimal-decision-trees
 
 categories:
+  - Conference Proceedings
   - Research
 tags:
   - Classification

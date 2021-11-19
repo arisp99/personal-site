@@ -194,14 +194,8 @@
     "knitr": {
       "Package": "knitr",
       "Version": "1.36",
-      "Source": "CRAN",
+      "Source": "Repository",
       "Repository": "CRAN",
-      "RemoteType": "standard",
-      "RemotePkgRef": "knitr",
-      "RemoteRef": "knitr",
-      "RemoteRepos": "https://cloud.r-project.org",
-      "RemotePkgPlatform": "macos",
-      "RemoteSha": "1.36",
       "Hash": "46344b93f8854714cdf476433a59ed10"
     },
     "later": {
@@ -285,14 +279,8 @@
     "rmarkdown": {
       "Package": "rmarkdown",
       "Version": "2.11",
-      "Source": "CRAN",
+      "Source": "Repository",
       "Repository": "CRAN",
-      "RemoteType": "standard",
-      "RemotePkgRef": "rmarkdown",
-      "RemoteRef": "rmarkdown",
-      "RemoteRepos": "https://cloud.r-project.org",
-      "RemotePkgPlatform": "macos",
-      "RemoteSha": "2.11",
       "Hash": "320017b52d05a943981272b295750388"
     },
     "servr": {

@@ -95,13 +95,13 @@ enableEmoji = true
       icon_pack = "fab"
       url       = "https://github.com/arisp99"
   [[params.social]]
-      icon      = "orcid" # icon name without the 'fa-'
-      icon_pack = "ai"
-      url       = "http://orcid.org/0000-0003-2247-1885"
-  [[params.social]]
       icon = "google-scholar"
       icon_pack = "ai"
       url = "https://scholar.google.com/citations?hl=en&user=i6OmoAoAAAAJ"
+  [[params.social]]
+      icon      = "orcid" # icon name without the 'fa-'
+      icon_pack = "ai"
+      url       = "http://orcid.org/0000-0003-2247-1885"
 
 #  [[params.social]]
 #      icon      = "facebook-square" # icon name without the 'fa-'

@@ -2,8 +2,8 @@
 title: UCIData
 layout: single
 categories:
-- Julia
-- package
+  - Julia
+  - Package
 date: "2017-01-01"
 draft: false
 excerpt: >
@@ -13,11 +13,10 @@ excerpt: >
   consistent. The aim of this pacakge is to convert the data sets into a common
   format.
 links:
-- icon: github
-  icon_pack: fab
-  name: code
-  url: https://github.com/JackDunnNZ/UCIData.jl
+  - icon: github
+    icon_pack: fab
+    name: code
+    url: https://github.com/JackDunnNZ/UCIData.jl
 subtitle: An Julia Package
 tags:
 ---
-

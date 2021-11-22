@@ -9,23 +9,23 @@ selected: true
 
 image:
   caption: Image by [Yancy Min](https://unsplash.com/photos/842ofHC6MaI)
-  focal_point: ''
+  focal_point: ""
   preview_only: no
 
 categories:
-  - talks
+  - Talks
 tags:
   - r
   - git
   - github
 
 links:
-- icon: images
-  icon_pack: fas
-  name: slides
-  url: https://arisp99.github.io/r-with-git/r-with-git.pdf
-- icon: github
-  icon_pack: fab
-  name: code
-  url: https://github.com/arisp99/r-with-git
+  - icon: images
+    icon_pack: fas
+    name: slides
+    url: https://arisp99.github.io/r-with-git/r-with-git.pdf
+  - icon: github
+    icon_pack: fab
+    name: code
+    url: https://github.com/arisp99/r-with-git
 ---

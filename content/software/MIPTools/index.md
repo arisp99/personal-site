@@ -5,7 +5,7 @@ author: the Bailey Lab
 categories:
   - Python
   - Singularity
-  - container
+  - Container
 date: "2021-11-18"
 draft: false
 excerpt: >

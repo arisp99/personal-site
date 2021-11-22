@@ -4,7 +4,7 @@ layout: single
 author: the Bailey Lab
 categories:
   - R
-  - package
+  - Package
 date: "2021-11-19"
 draft: false
 excerpt: >

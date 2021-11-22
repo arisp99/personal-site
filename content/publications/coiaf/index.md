@@ -45,3 +45,15 @@ global heterogeneity of the COI and characterize the relationship between
 malaria prevalence at the time of sample collection and the COI. Lastly, we
 detail how our methods can be used to explore further within-sample parasite
 information, including the relatedness of parasites within mixed infections.
+
+## Citation
+
+```bibtex
+@misc{paschalidis_complexity_2021,
+	title = {Complexity of Infection Estimation with Allele Frequencies},
+	language = {English},
+	author = {Paschalidis, Aris and Watson, Oliver J. and Verity, Robert J. and Bailey, Jeffrey A.},
+	month = nov,
+	year = {2021},
+}
+```

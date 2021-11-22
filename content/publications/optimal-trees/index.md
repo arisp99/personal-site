@@ -40,3 +40,19 @@ synthetic datasets and optimal classification tress on a novel application
 concerning the usage of CT imagining to diagnose head injuries in children. Our
 results demonstrate that optimal trees lead to a significantly greater accuracy
 than CART.
+
+## Citation
+
+```bibtex
+@inproceedings{bertsimas_regression_2017,
+  title = {Regression and classification using optimal decision trees},
+  author = {Bertsimas, Dimitris and Dunn, Jack and Paschalidis, Aris},
+	doi = {10.1109/URTC.2017.8284195},
+	booktitle = {2017 {IEEE} {MIT} {Undergraduate} {Research} {Technology} {Conference} ({URTC})},
+	month = nov,
+	year = {2017},
+	keywords = {CART, Classification, Classification and Regression Trees, Complexity theory, Data models, decision trees, Decision trees, injuries, Integer Optimization, integer programming, Measurement uncertainty, medical diagnostic computing, Mixed Integer Optimization, optimal decision tree approach, Optimized production technology, pattern classification, recursive approach, Regression, regression analysis, Regression tree analysis, Training},
+	pages = {1--4},
+	file = {IEEE Xplore Abstract Record:/Users/arisp/Zotero/storage/ZT4HMWL5/8284195.html:text/html}
+}
+```

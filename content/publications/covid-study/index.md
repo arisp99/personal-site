@@ -71,3 +71,24 @@ outcomes of patients with COVID-19. Our models achieved high accuracies and
 could predict outcomes more than one week in advance; this promising result
 suggests that these models can be highly useful for resource allocation in
 hospitals.
+
+## Citation
+
+```bibtex
+@Article{wang_predictive_2020,
+  author = "Wang, Taiyao and Paschalidis, Aris and Liu, Quanying and Liu, Yingxia and Yuan, Ye and Paschalidis, Ioannis Ch",
+  title = "Predictive Models of Mortality for Hospitalized Patients With COVID-19: Retrospective Cohort Study",
+  journal = "JMIR Medical Informatics",
+  year = "2020",
+  month = "Oct",
+  day = "15",
+  volume = "8",
+  number = "10",
+  pages = "e21788",
+  keywords = "coronavirus; COVID-19; mortality; Wuhan; China; machine learning; logistic regression; support vector machine; predictive modeling",
+  issn = "2291-9694",
+  doi = "10.2196/21788",
+  url = "http://medinform.jmir.org/2020/10/e21788/",
+  url = "https://doi.org/10.2196/21788"
+}
+```

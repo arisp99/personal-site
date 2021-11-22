@@ -57,3 +57,16 @@ response.
 Women with non-ischemic cardiomyopathy and absence of COPD keep improving after
 the 1st month of implantation, while ischemic and COPD patients tend to decline
 or stabilize depending on the surrogate.
+
+## Citation
+
+```bibtex
+@misc{varrias_predictors_2020,
+  author = {Varrias, Dimitrios and Pujol, Margarida and Samala, Vikramaditya and Zhao, Megan and de la Hoz, Miguel Ángel Armengol and Paschalidis, Aris and Shah, Ravi and Silverman, Michael and Heist, Kevin and Singh, Jagmeet and Das, Saumya},
+  title = {Predictors Of Continuing Improvement After 1st Month Of Crt Implantation In Women With Heart Failure (hf)},
+  year = {2020},
+  note = {Poster Presentation, Heart Rhythm Society 2020 Science},
+  language = {English},
+	urldate = {2020-06-29},
+}
+```

@@ -58,3 +58,28 @@ possibility that physical function scores may deteriorate a year after surgery.
 Tighter follow-up guidelines, more frequent physical therapy visits, or
 treatment for mental health issues may be considered to counter such
 deterioration.
+
+## Citation
+
+```bibtex
+@Article{melnic_patient_2020,
+  title = {Patient-Reported Mental Health Score Influences Physical Function After Primary Total Knee Arthroplasty},
+  author = {Melnic, Christopher M. and Paschalidis, Aris and Katakam, Akhil and Bedair, Hany S. and Heng, Marilyn and Chen, Antonia F. and O’Brien, Todd M. and Sisodia, Rachel C.},
+  issn = {0883-5403},
+  url = {http://www.sciencedirect.com/science/article/pii/S0883540320311293},
+  doi = {https://doi.org/10.1016/j.arth.2020.10.031},
+  journal = {The Journal of Arthroplasty},
+  year = {2020},
+  keywords = {mental health, physical function, post-operative outcome, {PROMIS}, total knee arthroplasty}
+}
+
+@misc{melnic_physical_2021,
+	title = {Physical Function After Primary Total Knee Arthroplasties (TKAs) Stratified by Pre-operative Patient-Reported Mental Health Score},
+	author = {Melnic, Christopher M. and Paschalidis, Aris and Katakam, Akhil and Bedair, Hany S. and Heng, Marilyn and Chen, Antonia F. and O’Brien, Todd M. and Sisodia, Rachel C.},
+	month = aug,
+	year = {2021},
+	address = {San Diego, California},
+	annote = {Poster Presentation, American Academy of Orthopaedic Surgeons 2021 Annual Meeting},
+	language = {English}
+}
+```

@@ -48,12 +48,19 @@ information, including the relatedness of parasites within mixed infections.
 
 ## Citation
 
+**Paschalidis A**, Watson OJ, Verity RJ, Bailey JA. Complexity of Infection
+Estimation with Allele Frequencies. Presented at: American Society of Tropical
+Medicine and Hygiene Annual Meeting; November 19, 2021; Virtual.
+
+<!---
 ```bibtex
 @misc{paschalidis_complexity_2021,
-	title = {Complexity of Infection Estimation with Allele Frequencies},
+	address = {Virtual},
+	title = {Complexity of {Infection} {Estimation} with {Allele} {Frequencies}},
 	language = {English},
 	author = {Paschalidis, Aris and Watson, Oliver J. and Verity, Robert J. and Bailey, Jeffrey A.},
 	month = nov,
 	year = {2021},
 }
 ```
+--->

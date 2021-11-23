@@ -23,6 +23,10 @@ cardiac remodeling in patients with chronic heart failure.'
 
 ## Citation
 
+Varrias D, Paschalidis A, Michelhaugh S, et al. Changes in plasma extracellular
+RNAs: Independent associations with left and right ventricular reverse
+remodeling. Presented at: Cardiovascular Research Center Retreat; 2019.
+
 ```bibtex
 @misc{varrias_changes_2019,
   title = {Changes in plasma extracellular RNAs: Independent associations with left and right ventricular reverse remodeling},

@@ -74,6 +74,10 @@ hospitals.
 
 ## Citation
 
+Wang T, Paschalidis A, Liu Q, Liu Y, Yuan Y, Paschalidis IC. Predictive Models
+of Mortality for Hospitalized Patients With COVID-19: Retrospective Cohort
+Study. JMIR Med Inform. 2020;8(10). doi:10.2196/21788
+
 ```bibtex
 @Article{wang_predictive_2020,
   author = "Wang, Taiyao and Paschalidis, Aris and Liu, Quanying and Liu, Yingxia and Yuan, Ye and Paschalidis, Ioannis Ch",

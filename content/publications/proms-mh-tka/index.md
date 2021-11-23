@@ -70,25 +70,35 @@ Melnic CM, Paschalidis A, Katakam A, et al. Patient-Reported Mental Health Score
 Influences Physical Function After Primary Total Knee Arthroplasty. The Journal
 of Arthroplasty. 2021;36(4):1277-1283. doi:10.1016/j.arth.2020.10.031
 
+<!---
 ```bibtex
-@Article{melnic_patient_2020,
-  title = {Patient-Reported Mental Health Score Influences Physical Function After Primary Total Knee Arthroplasty},
-  author = {Melnic, Christopher M. and Paschalidis, Aris and Katakam, Akhil and Bedair, Hany S. and Heng, Marilyn and Chen, Antonia F. and O’Brien, Todd M. and Sisodia, Rachel C.},
-  issn = {0883-5403},
-  url = {http://www.sciencedirect.com/science/article/pii/S0883540320311293},
-  doi = {https://doi.org/10.1016/j.arth.2020.10.031},
-  journal = {The Journal of Arthroplasty},
-  year = {2020},
-  keywords = {mental health, physical function, post-operative outcome, {PROMIS}, total knee arthroplasty}
-}
-
 @misc{melnic_physical_2021,
-	title = {Physical Function After Primary Total Knee Arthroplasties (TKAs) Stratified by Pre-operative Patient-Reported Mental Health Score},
+	address = {San Diego, California},
+	title = {Physical {Function} {After} {Primary} {Total} {Knee} {Arthroplasties} ({TKAs}) {Stratified} by {Pre}-operative {Patient}-{Reported} {Mental} {Health} {Score}},
+	language = {English},
 	author = {Melnic, Christopher M. and Paschalidis, Aris and Katakam, Akhil and Bedair, Hany S. and Heng, Marilyn and Chen, Antonia F. and O’Brien, Todd M. and Sisodia, Rachel C.},
 	month = aug,
 	year = {2021},
-	address = {San Diego, California},
 	annote = {Poster Presentation, American Academy of Orthopaedic Surgeons 2021 Annual Meeting},
-	language = {English}
+}
+
+@article{melnic_patient-reported_2021,
+	title = {Patient-{Reported} {Mental} {Health} {Score} {Influences} {Physical} {Function} {After} {Primary} {Total} {Knee} {Arthroplasty}},
+	volume = {36},
+	issn = {0883-5403, 1532-8406},
+	url = {https://www.arthroplastyjournal.org/article/S0883-5403(20)31129-3/fulltext},
+	doi = {10.1016/j.arth.2020.10.031},
+	language = {English},
+	number = {4},
+	urldate = {2021-11-23},
+	journal = {The Journal of Arthroplasty},
+	author = {Melnic, Christopher M. and Paschalidis, Aris and Katakam, Akhil and Bedair, Hany S. and Heng, Marilyn and Chen, Antonia F. and O’Brien, Todd M. and Sisodia, Rachel C.},
+	month = apr,
+	year = {2021},
+	pmid = {33189495},
+	note = {Publisher: Elsevier},
+	keywords = {mental health, physical function, post-operative outcome, PROMIS, total knee arthroplasty},
+	pages = {1277--1283},
 }
 ```
+--->

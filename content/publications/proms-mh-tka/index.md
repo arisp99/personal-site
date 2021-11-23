@@ -67,8 +67,9 @@ Mental Health Score. Presented at: American Academy of Orthopaedic Surgeons 2021
 Annual Meeting; August 31, 2021; San Diego, California.
 
 Melnic CM, **Paschalidis A**, Katakam A, et al. Patient-Reported Mental Health
-Score Influences Physical Function After Primary Total Knee Arthroplasty. The
-Journal of Arthroplasty. 2021;36(4):1277-1283. doi:10.1016/j.arth.2020.10.031
+Score Influences Physical Function After Primary Total Knee Arthroplasty. _The_
+_Journal of Arthroplasty_. 2021;36(4):1277-1283.
+doi:[10.1016/j.arth.2020.10.031](https://doi.org/10.1016/j.arth.2020.10.031)
 
 <!---
 ```bibtex

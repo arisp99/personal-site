@@ -76,7 +76,8 @@ hospitals.
 
 Wang T, **Paschalidis A**, Liu Q, Liu Y, Yuan Y, Paschalidis IC. Predictive
 Models of Mortality for Hospitalized Patients With COVID-19: Retrospective
-Cohort Study. JMIR Med Inform. 2020;8(10). doi:10.2196/21788
+Cohort Study. _JMIR Med Inform_. 2020;8(10).
+doi:[10.2196/21788](https://doi.org/10.2196/21788)
 
 <!---
 ```bibtex

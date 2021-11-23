@@ -44,8 +44,9 @@ than CART.
 ## Citation
 
 Bertsimas D, Dunn J, **Paschalidis A**. Regression and classification using
-optimal decision trees. In: 2017 IEEE MIT Undergraduate Research Technology
-Conference (URTC). ; 2017:1-4. doi:10.1109/URTC.2017.8284195
+optimal decision trees. In: _2017 IEEE MIT Undergraduate Research Technology_
+_Conference (URTC)_. ; 2017:1-4.
+doi:[10.1109/URTC.2017.8284195](https://doi.org/10.1109/URTC.2017.8284195)
 
 <!---
 ```bibtex

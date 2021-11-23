@@ -43,16 +43,21 @@ than CART.
 
 ## Citation
 
+Bertsimas D, Dunn J, **Paschalidis A**. Regression and classification using
+optimal decision trees. In: _2017 IEEE MIT Undergraduate Research Technology_
+_Conference (URTC)_. ; 2017:1-4.
+doi:[10.1109/URTC.2017.8284195](https://doi.org/10.1109/URTC.2017.8284195)
+
+<!---
 ```bibtex
 @inproceedings{bertsimas_regression_2017,
-  title = {Regression and classification using optimal decision trees},
-  author = {Bertsimas, Dimitris and Dunn, Jack and Paschalidis, Aris},
+	title = {Regression and classification using optimal decision trees},
 	doi = {10.1109/URTC.2017.8284195},
 	booktitle = {2017 {IEEE} {MIT} {Undergraduate} {Research} {Technology} {Conference} ({URTC})},
+	author = {Bertsimas, Dimitris and Dunn, Jack and Paschalidis, Aris},
 	month = nov,
 	year = {2017},
-	keywords = {CART, Classification, Classification and Regression Trees, Complexity theory, Data models, decision trees, Decision trees, injuries, Integer Optimization, integer programming, Measurement uncertainty, medical diagnostic computing, Mixed Integer Optimization, optimal decision tree approach, Optimized production technology, pattern classification, recursive approach, Regression, regression analysis, Regression tree analysis, Training},
 	pages = {1--4},
-	file = {IEEE Xplore Abstract Record:/Users/arisp/Zotero/storage/ZT4HMWL5/8284195.html:text/html}
 }
 ```
+--->

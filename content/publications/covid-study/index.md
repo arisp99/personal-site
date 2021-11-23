@@ -74,21 +74,28 @@ hospitals.
 
 ## Citation
 
+Wang T, **Paschalidis A**, Liu Q, Liu Y, Yuan Y, Paschalidis IC. Predictive
+Models of Mortality for Hospitalized Patients With COVID-19: Retrospective
+Cohort Study. _JMIR Med Inform_. 2020;8(10).
+doi:[10.2196/21788](https://doi.org/10.2196/21788)
+
+<!---
 ```bibtex
-@Article{wang_predictive_2020,
-  author = "Wang, Taiyao and Paschalidis, Aris and Liu, Quanying and Liu, Yingxia and Yuan, Ye and Paschalidis, Ioannis Ch",
-  title = "Predictive Models of Mortality for Hospitalized Patients With COVID-19: Retrospective Cohort Study",
-  journal = "JMIR Medical Informatics",
-  year = "2020",
-  month = "Oct",
-  day = "15",
-  volume = "8",
-  number = "10",
-  pages = "e21788",
-  keywords = "coronavirus; COVID-19; mortality; Wuhan; China; machine learning; logistic regression; support vector machine; predictive modeling",
-  issn = "2291-9694",
-  doi = "10.2196/21788",
-  url = "http://medinform.jmir.org/2020/10/e21788/",
-  url = "https://doi.org/10.2196/21788"
+@article{wang_predictive_2020,
+	title = {Predictive {Models} of {Mortality} for {Hospitalized} {Patients} {With} {COVID}-19: {Retrospective} {Cohort} {Study}},
+	volume = {8},
+	issn = {2291-9694},
+	shorttitle = {Predictive {Models} of {Mortality} for {Hospitalized} {Patients} {With} {COVID}-19},
+	url = {https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7572117/},
+	doi = {10.2196/21788},
+	number = {10},
+	urldate = {2021-04-07},
+	journal = {JMIR Medical Informatics},
+	author = {Wang, Taiyao and Paschalidis, Aris and Liu, Quanying and Liu, Yingxia and Yuan, Ye and Paschalidis, Ioannis Ch},
+	month = oct,
+	year = {2020},
+	pmid = {33055061},
+	pmcid = {PMC7572117},
 }
 ```
+--->

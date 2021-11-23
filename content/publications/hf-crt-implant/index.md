@@ -60,13 +60,20 @@ or stabilize depending on the surrogate.
 
 ## Citation
 
+Varrias D, Pujol M, Samala V, et al. Predictors Of Continuing Improvement After
+1st Month Of Crt Implantation In Women With Heart Failure (hf). Presented at:
+Heart Rhythm Society 2020 Science; 2020; Virtual.
+
+<!---
 ```bibtex
 @misc{varrias_predictors_2020,
-  author = {Varrias, Dimitrios and Pujol, Margarida and Samala, Vikramaditya and Zhao, Megan and de la Hoz, Miguel Ángel Armengol and Paschalidis, Aris and Shah, Ravi and Silverman, Michael and Heist, Kevin and Singh, Jagmeet and Das, Saumya},
-  title = {Predictors Of Continuing Improvement After 1st Month Of Crt Implantation In Women With Heart Failure (hf)},
-  year = {2020},
-  note = {Poster Presentation, Heart Rhythm Society 2020 Science},
-  language = {English},
+	address = {Virtual},
+	title = {Predictors {Of} {Continuing} {Improvement} {After} 1st {Month} {Of} {Crt} {Implantation} {In} {Women} {With} {Heart} {Failure} (hf)},
+	language = {English},
 	urldate = {2020-06-29},
+	author = {Varrias, Dimitrios and Pujol, Margarida and Samala, Vikramaditya and Zhao, Megan and de la Hoz, Miguel Ángel Armengol and Paschalidis, Aris and Shah, Ravi and Silverman, Michael and Heist, Kevin and Singh, Jagmeet and Das, Saumya},
+	year = {2020},
+	annote = {Poster Presentation, Heart Rhythm Society 2020 Science},
 }
 ```
+--->

@@ -15,7 +15,6 @@ image:
 categories:
   - Talks
 tags:
-  - r
   - git
   - github
 

@@ -3,6 +3,7 @@
 on:
   push:
     paths: ["content/**/*.Rmd"]
+  workflow_dispatch:
 
 name: render-rmarkdown
 

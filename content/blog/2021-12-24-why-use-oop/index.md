@@ -145,8 +145,7 @@ plot_prevalence <- function(data) {
 Now, using classes to solve this issue might seem like overkill.
 After all, why create an entire new class when you can just have an `if()`
 statement? The real power of object-oriented programming is the ability to use
-**polymorphism**^[The term polymorphism has been taken from [Advanced
-R](https://adv-r.hadley.nz/oo.html#oop-systems).]. What we mean by this is the
+**polymorphism**[^1]. What we mean by this is the
 ability to use the same function for many types of input. An example of this
 behavior is the base R function `print()` which behaves differently depending on
 the class of the input.
@@ -196,6 +195,9 @@ plot(prevalence)
 ```
 
 <img src="{{< blogdown/postref >}}index_files/figure-html/plot class-1.png" width="672" />
+
+[^1]: The term polymorphism has been taken from [Advanced
+R](https://adv-r.hadley.nz/oo.html#oop-systems).
 
 ## Additional Reading
 

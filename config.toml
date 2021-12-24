@@ -145,7 +145,7 @@ enableEmoji = true
   [[menu.header]]
     name = "CV"
     title = "Curriculum Vitae"
-    url = "cv-resume/cv.pdf"
+    url = "/cv-resume/cv.pdf"
     weight = 4
   [[menu.header]]
     name = "Blog"

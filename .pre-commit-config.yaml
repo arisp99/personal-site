@@ -12,3 +12,8 @@ repos:
     hooks:
       - id: prettier
         types_or: [yaml, markdown, toml]
+        exclude: |
+          (?x)^(
+              content/blog/2021-12-24-why-use-oop/index.md|
+              content/software/CAvaccines/index.md
+          )$

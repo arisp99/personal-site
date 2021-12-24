@@ -18,6 +18,8 @@ tags:
   - S3
 ---
 
+
+
 R is traditionally a functional programming language, meaning that when we code
 in R, we tend to think in terms of functions. For instance, given a data set,
 what function can I create to plot a certain variable? Object oriented
@@ -38,6 +40,7 @@ Consider the case where you want to create a function that works for a specific
 type of data format. Perhaps there you are interested in a specific column and
 want to ensure your data has this column present. For instance, let us take a
 look at the following dataset.
+
 
 ```
 #> # A tibble: 832 × 10
@@ -60,6 +63,7 @@ look at the following dataset.
 Let us say we want to create a function `mutation_prevalence` which determines
 the prevalence of each mutation in the dataset. Moreover, we would like to plot
 this prevalence.
+
 
 ```r
 prevalence <- mutation_prevalence(data, 5)
@@ -95,6 +99,7 @@ the `mutation_name` and the `prevalence`.
 If we were to create an function, `plot_prevalence`, the easiest way to code it
 would be to give the function a `data` argument:
 
+
 ```r
 plot_prevalence <- function(data) {
   # code for plotting goes here
@@ -109,6 +114,7 @@ of `mutation_prevalence()`. How could we address this potential problem?
 
 The most obvious solution would be to check that some key columns exist:
 
+
 ```r
 plot_prevalence <- function(data) {
   if (!"mutation_name" %in% colnames(data)) {
@@ -122,6 +128,7 @@ plot_prevalence <- function(data) {
 Howerver, another strategy would be to use classes! If we assigned a class, say
 `mut_prev`, to the output of `mutation_prevalence()`, we could easily check if
 the input is of type `mut_prev`:
+
 
 ```r
 plot_prevalence <- function(data) {
@@ -144,6 +151,7 @@ ability to use the same function for many types of input. An example of this
 behavior is the base R function `print()` which behaves differently depending on
 the class of the input.
 
+
 ```r
 # A vector
 print(c(1, 2))
@@ -158,11 +166,12 @@ print(tibble::as_tibble(c(1, 2)))
 #> 2     2
 ```
 
-Using OOP,developers can customize how certain functions interact with certain
+Using OOP, developers can customize how certain functions interact with certain
 objects. Revisiting our `mut_prev` class, we could even change the way the table
 is printed! Another common example is plotting a dataset. Say we have developed
 a package that introduces three different classes of datasets. We can then
 create a plot method for each type of class.
+
 
 ```r
 plot.class1 <- function(x) {
@@ -180,6 +189,7 @@ plot.class3 <- function(x) {
 
 We can witness this in action with our class `mut_prev`. When we call `plot()`
 a custom plot specific to only our class is generated!
+
 
 ```r
 plot(prevalence)

@@ -139,7 +139,7 @@ print(c(1, 2))
 print(tibble::as_tibble(c(1, 2)))
 ```
 
-Using OOP,developers can customize how certain functions interact with certain
+Using OOP, developers can customize how certain functions interact with certain
 objects. Revisiting our `mut_prev` class, we could even change the way the table
 is printed! Another common example is plotting a dataset. Say we have developed
 a package that introduces three different classes of datasets. We can then

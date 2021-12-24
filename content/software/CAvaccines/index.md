@@ -3,7 +3,7 @@ title: CAvaccines
 layout: single
 categories:
   - R
-  - Package
+  - package
 date: "2020-09-12"
 draft: false
 excerpt: >

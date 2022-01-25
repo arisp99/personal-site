@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>package on Personal Site</title>
+    <link>https://www.arispas.com/categories/package/</link>
+    <description>Recent content in package on Personal Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 19 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.arispas.com/categories/package/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>coiaf</title>
+      <link>https://www.arispas.com/software/coiaf/</link>
+      <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/software/coiaf/</guid>
+      <description>Introduction     In malaria, individuals are often infected with different parasite strains, with the complexity of infection (COI) giving the number of genetically different parasite strains in an individual. Changes in the mean COI in a population have been shown to be informative of changes in transmission intensity with a number of probabilistic likelihood and Bayesian models now developed to estimate COI. However, rapid, direct measures based on heterozygosity or FwS have not been directly related to the COI.</description>
+    </item>
+    
+    <item>
+      <title>miplicorn</title>
+      <link>https://www.arispas.com/software/miplicorn/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/software/miplicorn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CAvaccines</title>
+      <link>https://www.arispas.com/software/cavaccines/</link>
+      <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/software/cavaccines/</guid>
+      <description>The goal of CAvaccines is to analyze the relationship between vaccination rates and infectious disease incidence in California counties.
+Installation     To install the package, please run the code below. In order to install, {devtools} must be installed.
+# install.packages(&amp;#34;devtools&amp;#34;) devtools::install_github(&amp;#34;arisp99/CAvaccines&amp;#34;)  Usage     In order to run the main script, please refer to the included vignettes. These can also be found under the Articles tab in the website.</description>
+    </item>
+    
+    <item>
+      <title>nof1gen</title>
+      <link>https://www.arispas.com/software/nof1gen/</link>
+      <pubDate>Thu, 07 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/software/nof1gen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UCIData</title>
+      <link>https://www.arispas.com/software/ucidata/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/software/ucidata/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

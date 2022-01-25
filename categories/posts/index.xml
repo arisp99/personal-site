@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Personal Site</title>
+    <link>https://www.arispas.com/categories/posts/</link>
+    <description>Recent content in Posts on Personal Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.arispas.com/categories/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Use OOP?</title>
+      <link>https://www.arispas.com/blog/2021-12-24-why-use-oop/</link>
+      <pubDate>Fri, 24 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/blog/2021-12-24-why-use-oop/</guid>
+      <description>R is traditionally a functional programming language, meaning that when we code in R, we tend to think in terms of functions. For instance, given a data set, what function can I create to plot a certain variable? Object oriented programming (OOP) introduces the concept of &amp;ldquo;classes.&amp;rdquo; While classes are used extensively in other programming languages such as Java, their use in R differs from conventional uses. In part, this is because R has several unique OOP systems which differ from one another in key ways.</description>
+    </item>
+    
+  </channel>
+</rss>

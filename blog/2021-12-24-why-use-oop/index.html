@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head>
+  
+                           
+     
+
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.88.1" />
+<title>Why Use OOP? | Personal Site</title>
+
+
+
+
+
+
+
+
+  
+    
+  
+<meta name="description" content="Aris Paschalidis&#39; personal website.">
+
+
+<meta property="og:site_name" content="Personal Site">
+<meta property="og:title" content="Why Use OOP? | Personal Site">
+<meta property="og:description" content="Aris Paschalidis&#39; personal website." />
+<meta property="og:type" content="page" />
+<meta property="og:url" content="https://www.arispas.com/blog/2021-12-24-why-use-oop/" />
+<meta property="og:locale" content="en">
+
+
+
+
+    
+        <meta property="og:image" content="https://www.arispas.com/blog/2021-12-24-why-use-oop/featured.png" >
+        <meta property="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="https://www.arispas.com/blog/2021-12-24-why-use-oop/featured.png" >
+    
+    
+  <meta itemprop="name" content="Why Use OOP?">
+<meta itemprop="description" content="R is traditionally a functional programming language, meaning that when we code in R, we tend to think in terms of functions. For instance, given a data set, what function can I create to plot a certain variable? Object oriented programming (OOP) introduces the concept of &ldquo;classes.&rdquo; While classes are used extensively in other programming languages such as Java, their use in R differs from conventional uses. In part, this is because R has several unique OOP systems which differ from one another in key ways."><meta itemprop="datePublished" content="2021-12-24T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2021-12-24T00:00:00+00:00" />
+<meta itemprop="wordCount" content="1040"><meta itemprop="image" content="https://www.arispas.com/blog/2021-12-24-why-use-oop/featured.png">
+<meta itemprop="keywords" content="OOP,S3," />
+  
+  <!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="shortcut icon" href="/img/favicon-nb/favicon-32x32.png" type="image/x-icon">
+  <link rel="icon" href="/img/favicon-nb/favicon-32x32.png" type="image/x-icon">
+  
+  
+  <link rel="stylesheet" href="/style.main.min.cc94b744f3a314fa1a05b9eb5efd95abebd86bf22386b7990b0947b5bd4441a9.css" integrity="sha256-zJS3RPOjFPoaBbnrXv2Vq&#43;vYa/IjhreZCwlHtb1EQak=" media="screen">
+  
+  
+  <script src="/panelset.min.078a92db9bd3228df502db3d9e0453c3cf3d910abe3f8deca0ad196c7071ad41.js" type="text/javascript"></script>
+  
+  
+  <script src="/main.min.fdc77f0c353ebb9270484eb3656a9d5fe22b3dc3b65b3ceb3f3f45daf515aa0a.js" type="text/javascript"></script>
+</head>
+<body>
+      <div class="grid-container">
+<header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner">
+  <nav class="site-nav db dt-l w-100" role="navigation">
+    <a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="https://www.arispas.com" title="Home">
+      <img src="/img/logo-nb.png" class="dib db-l h2 w-auto" alt="Personal Site">
+    </a>
+    <div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked">
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/about/" title="About Me">About</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/publications/" title="Publications">Publications</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/software/" title="Software Projects">Software</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/cv-resume/cv.pdf" title="Curriculum Vitae">CV</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 active" href="/blog/" title="Blog Posts">Blog</a>
+      
+      
+    </div>
+  </nav>
+</header>
+
+<main class="page-main pa4" role="main">
+  <section class="page-content mw7 center">
+    <article class="post-content pa0 ph4-l">
+      <header class="post-header">
+        <h1 class="f1 lh-solid measure-narrow mb3 fw4">Why Use OOP?</h1>
+        
+        <p class="f6 measure lh-copy mv1">By Aris Paschalidis in <a href="https://www.arispas.com/categories/posts">Posts</a> </p>
+        <p class="f7 db mv0 ttu">December 24, 2021</p>
+
+      
+
+      </header>
+      <section class="post-body pt5 pb4">
+        <p>R is traditionally a functional programming language, meaning that when we code
+in R, we tend to think in terms of functions. For instance, given a data set,
+what function can I create to plot a certain variable? Object oriented
+programming (OOP) introduces the concept of &ldquo;classes.&rdquo; While classes are used
+extensively in other programming languages such as Java, their use in R differs
+from conventional uses. In part, this is because R has several unique OOP
+systems which differ from one another in key ways. The three most popular
+systems are S3, S4, and R6. While different R communities leverage different
+systems, we will focus on S3, which is favored by the folks over at
+
+<a href="https://www.tidyverse.org/" target="_blank" rel="noopener">RStudio</a>, the
+
+<a href="https://www.tidyverse.org/" target="_blank" rel="noopener">Tidyverse</a>, and other related organizations. For
+more information, see the 
+<a href="#additional-reading">additional reading</a> section
+below.</p>
+
+
+
+
+<h2 id="an-example-use-case">An Example Use Case
+  <a href="#an-example-use-case"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>Consider the case where you want to create a function that works for a specific
+type of data format. Perhaps there you are interested in a specific column and
+want to ensure your data has this column present. For instance, let us take a
+look at the following dataset.</p>
+<pre tabindex="0"><code>#&gt; # A tibble: 832 × 10
+#&gt;    sample     gene_id       gene  mutation_name  exonic_func  aa_change targeted
+#&gt;    &lt;chr&gt;      &lt;chr&gt;         &lt;chr&gt; &lt;chr&gt;          &lt;chr&gt;        &lt;chr&gt;     &lt;chr&gt;
+#&gt;  1 D10-JJJ-23 PF3D7_0106300 atp6  atp6-Ala623Glu missense_va… Ala623Glu Yes
+#&gt;  2 D10-JJJ-43 PF3D7_0106300 atp6  atp6-Ala623Glu missense_va… Ala623Glu Yes
+#&gt;  3 D10-JJJ-55 PF3D7_0106300 atp6  atp6-Ala623Glu missense_va… Ala623Glu Yes
+#&gt;  4 D10-JJJ-5  PF3D7_0106300 atp6  atp6-Ala623Glu missense_va… Ala623Glu Yes
+#&gt;  5 D10-JJJ-47 PF3D7_0106300 atp6  atp6-Ala623Glu missense_va… Ala623Glu Yes
+#&gt;  6 D10-JJJ-15 PF3D7_0106300 atp6  atp6-Ala623Glu missense_va… Ala623Glu Yes
+#&gt;  7 D10-JJJ-27 PF3D7_0106300 atp6  atp6-Ala623Glu missense_va… Ala623Glu Yes
+#&gt;  8 D10-JJJ-10 PF3D7_0106300 atp6  atp6-Ala623Glu missense_va… Ala623Glu Yes
+#&gt;  9 D10-JJJ-28 PF3D7_0106300 atp6  atp6-Ala623Glu missense_va… Ala623Glu Yes
+#&gt; 10 D10-JJJ-52 PF3D7_0106300 atp6  atp6-Ala623Glu missense_va… Ala623Glu Yes
+#&gt; # … with 822 more rows, and 3 more variables: ref_umi_count &lt;dbl&gt;,
+#&gt; #   alt_umi_count &lt;dbl&gt;, coverage &lt;dbl&gt;
+</code></pre><p>Let us say we want to create a function <code>mutation_prevalence</code> which determines
+the prevalence of each mutation in the dataset. Moreover, we would like to plot
+this prevalence.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">prevalence <span style="color:#000;font-weight:bold">&lt;-</span> <span style="color:#900;font-weight:bold">mutation_prevalence</span>(data, <span style="color:#099">5</span>)
+prevalence
+<span style="color:#998;font-style:italic">#&gt; # A tibble: 16 × 4</span>
+<span style="color:#998;font-style:italic">#&gt;    mutation_name  n_total n_mutant prevalence</span>
+<span style="color:#998;font-style:italic">#&gt;    &lt;chr&gt;            &lt;int&gt;    &lt;int&gt;      &lt;dbl&gt;</span>
+<span style="color:#998;font-style:italic">#&gt;  1 atp6-Ala623Glu      36       NA     NA</span>
+<span style="color:#998;font-style:italic">#&gt;  2 atp6-Glu431Lys      39       NA     NA</span>
+<span style="color:#998;font-style:italic">#&gt;  3 atp6-Gly639Asp      26       19      0.731</span>
+<span style="color:#998;font-style:italic">#&gt;  4 atp6-Ser466Asn      15        9      0.6</span>
+<span style="color:#998;font-style:italic">#&gt;  5 atp6-Ser769Asn      17       NA     NA</span>
+<span style="color:#998;font-style:italic">#&gt;  6 crt-Ala220Ser       11        4      0.364</span>
+<span style="color:#998;font-style:italic">#&gt;  7 crt-Asn326Asp       21        8      0.381</span>
+<span style="color:#998;font-style:italic">#&gt;  8 crt-Asn326Ser       26       NA     NA</span>
+<span style="color:#998;font-style:italic">#&gt;  9 crt-Asn75Glu        29       24      0.828</span>
+<span style="color:#998;font-style:italic">#&gt; 10 crt-Cys72Ser        31       23      0.742</span>
+<span style="color:#998;font-style:italic">#&gt; 11 crt-His97Leu        47       NA     NA</span>
+<span style="color:#998;font-style:italic">#&gt; 12 crt-His97Tyr        47       NA     NA</span>
+<span style="color:#998;font-style:italic">#&gt; 13 crt-Ile356Leu       22       15      0.682</span>
+<span style="color:#998;font-style:italic">#&gt; 14 crt-Ile356Thr       41       18      0.439</span>
+<span style="color:#998;font-style:italic">#&gt; 15 crt-Lys76Thr        29       25      0.862</span>
+<span style="color:#998;font-style:italic">#&gt; 16 crt-Met74Ile        29       24      0.828</span>
+</code></pre></div><p>While creating this function may require some thought, it makes intuitive sense
+that the result will contain four columns as seen above. Two of these columns,
+<code>n_total</code> and <code>n_mutant</code>, are used to compute the final column, <code>prevalence</code>.
+Therefore, if we wanted to visualize our data, it is not very important for us
+to consider the two columns <code>n_total</code> and <code>n_mutant</code>. Rather, we care about
+the <code>mutation_name</code> and the <code>prevalence</code>.</p>
+<p>If we were to create an function, <code>plot_prevalence</code>, the easiest way to code it
+would be to give the function a <code>data</code> argument:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">plot_prevalence <span style="color:#000;font-weight:bold">&lt;-</span> <span style="color:#900;font-weight:bold">function</span>(data) {
+  <span style="color:#998;font-style:italic"># code for plotting goes here</span>
+}
+</code></pre></div><p>Notice that in the given format, we could feed any dataset into our function.
+In other words, there are no checks to make sure we are feeding in the output
+of <code>mutation_prevalence()</code>. How could we address this potential problem?</p>
+
+
+
+
+<h3 id="potential-solutions">Potential Solutions
+  <a href="#potential-solutions"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>The most obvious solution would be to check that some key columns exist:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">plot_prevalence <span style="color:#000;font-weight:bold">&lt;-</span> <span style="color:#900;font-weight:bold">function</span>(data) {
+  <span style="color:#900;font-weight:bold">if </span>(<span style="color:#000;font-weight:bold">!</span><span style="color:#d14">&#34;mutation_name&#34;</span> <span style="color:#000;font-weight:bold">%in%</span> <span style="color:#900;font-weight:bold">colnames</span>(data)) {
+    <span style="color:#900;font-weight:bold">stop</span>(<span style="color:#d14">&#34;Missing key column!&#34;</span>, call. <span style="color:#000;font-weight:bold">=</span> <span style="color:#000;font-weight:bold">FALSE</span>)
+  }
+
+  <span style="color:#998;font-style:italic"># code for plotting goes here</span>
+}
+</code></pre></div><p>Howerver, another strategy would be to use classes! If we assigned a class, say
+<code>mut_prev</code>, to the output of <code>mutation_prevalence()</code>, we could easily check if
+the input is of type <code>mut_prev</code>:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">plot_prevalence <span style="color:#000;font-weight:bold">&lt;-</span> <span style="color:#900;font-weight:bold">function</span>(data) {
+  <span style="color:#900;font-weight:bold">if </span>(<span style="color:#000;font-weight:bold">!</span><span style="color:#900;font-weight:bold">inherits</span>(data, <span style="color:#d14">&#34;mut_prev&#34;</span>)) {
+    <span style="color:#900;font-weight:bold">stop</span>(<span style="color:#d14">&#34;Wrong class input!&#34;</span>, call. <span style="color:#000;font-weight:bold">=</span> <span style="color:#000;font-weight:bold">FALSE</span>)
+  }
+
+  <span style="color:#998;font-style:italic"># code for plotting goes here</span>
+}
+</code></pre></div>
+
+
+
+<h2 id="but-wait-theres-more">But Wait, There&rsquo;s More!
+  <a href="#but-wait-theres-more"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>Now, using classes to solve this issue might seem like overkill.
+After all, why create an entire new class when you can just have an <code>if()</code>
+statement? The real power of object-oriented programming is the ability to use
+<strong>polymorphism</strong><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. What we mean by this is the
+ability to use the same function for many types of input. An example of this
+behavior is the base R function <code>print()</code> which behaves differently depending on
+the class of the input.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#998;font-style:italic"># A vector</span>
+<span style="color:#900;font-weight:bold">print</span>(<span style="color:#900;font-weight:bold">c</span>(<span style="color:#099">1</span>, <span style="color:#099">2</span>))
+<span style="color:#998;font-style:italic">#&gt; [1] 1 2</span>
+
+<span style="color:#998;font-style:italic"># A tibble</span>
+<span style="color:#900;font-weight:bold">print</span>(tibble<span style="color:#000;font-weight:bold">::</span><span style="color:#900;font-weight:bold">as_tibble</span>(<span style="color:#900;font-weight:bold">c</span>(<span style="color:#099">1</span>, <span style="color:#099">2</span>)))
+<span style="color:#998;font-style:italic">#&gt; # A tibble: 2 × 1</span>
+<span style="color:#998;font-style:italic">#&gt;   value</span>
+<span style="color:#998;font-style:italic">#&gt;   &lt;dbl&gt;</span>
+<span style="color:#998;font-style:italic">#&gt; 1     1</span>
+<span style="color:#998;font-style:italic">#&gt; 2     2</span>
+</code></pre></div><p>Using OOP, developers can customize how certain functions interact with certain
+objects. Revisiting our <code>mut_prev</code> class, we could even change the way the table
+is printed! Another common example is plotting a dataset. Say we have developed
+a package that introduces three different classes of datasets. We can then
+create a plot method for each type of class.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">plot.class1 <span style="color:#000;font-weight:bold">&lt;-</span> <span style="color:#900;font-weight:bold">function</span>(x) {
+  <span style="color:#998;font-style:italic"># plotting code</span>
+}
+
+plot.class2 <span style="color:#000;font-weight:bold">&lt;-</span> <span style="color:#900;font-weight:bold">function</span>(x) {
+  <span style="color:#998;font-style:italic"># plotting code</span>
+}
+
+plot.class3 <span style="color:#000;font-weight:bold">&lt;-</span> <span style="color:#900;font-weight:bold">function</span>(x) {
+  <span style="color:#998;font-style:italic"># plotting code</span>
+}
+</code></pre></div><p>We can witness this in action with our class <code>mut_prev</code>. When we call <code>plot()</code>
+a custom plot specific to only our class is generated!</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#900;font-weight:bold">plot</span>(prevalence)
+</code></pre></div><p><img src="https://www.arispas.com/blog/2021-12-24-why-use-oop/index_files/figure-html/plot class-1.png" width="672" /></p>
+
+
+
+
+<h2 id="additional-reading">Additional Reading
+  <a href="#additional-reading"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>There is a lot more to the world of OOP and many important packages leverage
+various OOP techniques. In fact, as we mentioned earlier, there are even
+multiple OOP systems in R. For example, the
+
+<a href="https://www.tidyverse.org/" target="_blank" rel="noopener">Tidyverse</a> is built using the S3 system whereas the
+
+<a href="https://www.bioconductor.org/" target="_blank" rel="noopener">Bioconductor project</a> uses S4. Of all the
+available systems, S3 is regarded as the easiest system to learn.</p>
+<p>To learn more about OOP, I would highly recommend reading the OOP chapter of
+
+<a href="https://adv-r.hadley.nz/oo.html" target="_blank" rel="noopener">Advanced R</a> and visiting some of the articles
+in the 
+<a href="https://vctrs.r-lib.org/articles/s3-vector.html" target="_blank" rel="noopener"><code>{vctrs}</code> package</a>. The
+functions used for this post can be found in my 
+<a href="https://github.com/arisp99/s3examples" target="_blank" rel="noopener"><code>{s3examples}</code>
+package</a> where I have written a simple S3
+subclass of the <code>tibble()</code> class.</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>The term polymorphism has been taken from 
+<a href="https://adv-r.hadley.nz/oo.html#oop-systems" target="_blank" rel="noopener">Advanced
+R</a>.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+        
+        <details closed class="f6 fw7 input-reset">
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Posted on:</dt>
+    <dd class="fw5 ml0">December 24, 2021</dd>
+  </dl>
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Length:</dt>
+    <dd class="fw5 ml0">5 minute read, 1040 words</dd>
+  </dl>
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Categories:</dt>
+    <dd class="fw5 ml0"> <a href="https://www.arispas.com/categories/posts">Posts</a> </dd>
+  </dl>
+  
+  
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Tags:</dt>
+    <dd class="fw5 ml0"> <a href="https://www.arispas.com/tags/oop">OOP</a>  <a href="https://www.arispas.com/tags/s3">S3</a> </dd>
+  </dl>
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">See Also:</dt>
+    
+  </dl>
+</details>
+
+      </section>
+      <footer class="post-footer">
+        <div class="post-pagination dt w-100 mt4 mb2">
+  
+  
+  
+  
+    <a class="next dtc pl2 tr v-top fw6"
+    href="https://www.arispas.com/blog/2021-10-13-r-with-git/">Using R with Git and Github &rarr;</a>
+  
+</div>
+
+      </footer>
+    </article>
+    
+      
+<div class="post-comments pa0 pa4-l mt4">
+  
+  <script src="https://utteranc.es/client.js"
+          repo="arisp99/personal-site"
+          issue-term="pathname"
+          theme="boxy-light"
+          label="comments :crystal_ball:"
+          crossorigin="anonymous"
+          async
+          type="text/javascript">
+  </script>
+  
+</div>
+
+    
+  </section>
+</main>
+<footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo">
+  <nav class="db dt-l w-100">
+    <p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">
+      &copy; 2022 Aris Paschalidis
+      <span class="middot-divider"></span>
+      Made with <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hugo-apero/" rel="dct:source">Hugo Apéro</a></span>.
+      <br />
+      
+Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">Blogophonic</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a>.
+    </p>
+    
+    <div class="site-social-links db dtc-l v-mid w-100 w-33-l tc pv2 pv0-l mv0">
+      <div class="social-icon-links" aria-hidden="true">
+  
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://www.linkedin.com/in/arisp99/" title="linkedin" target="_blank" rel="noopener">
+      <i class="fab fa-linkedin fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://github.com/arisp99" title="github" target="_blank" rel="noopener">
+      <i class="fab fa-github fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://scholar.google.com/citations?hl=en&amp;user=i6OmoAoAAAAJ" title="google-scholar" target="_blank" rel="noopener">
+      <i class="ai ai-google-scholar fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="http://orcid.org/0000-0003-2247-1885" title="orcid" target="_blank" rel="noopener">
+      <i class="ai ai-orcid fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="/blog/index.xml" title="rss" >
+      <i class="fas fa-rss fa-lg fa-fw"></i>
+    </a>
+  
+</div>
+
+    </div>
+    
+    <div class="site-links f6 db dtc-l v-mid w-100 w-67-l tc tr-l pv2 pv0-l mv0">
+      
+      <a class="dib pv1 ph2 link" href="/license/" title="License">License</a>
+      
+      <a class="dib pv1 ph2 link" href="/contact/" title="Contact form">Contact</a>
+      
+    </div>
+  </nav>
+  
+    <script>
+
+    var i, text, code, codes = document.getElementsByTagName('code');
+    for (let i = 0; i < codes.length;) {
+      code = codes[i];
+      if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+        text = code.textContent;
+        if (/^\$[^$]/.test(text) && /[^$]\$$/.test(text)) {
+          text = text.replace(/^\$/, '\\(').replace(/\$$/, '\\)');
+          code.textContent = text;
+        }
+        if (/^\\\((.|\s)+\\\)$/.test(text) ||
+            /^\\\[(.|\s)+\\\]$/.test(text) ||
+            /^\$(.|\s)+\$$/.test(text) ||
+            /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+          code.outerHTML = code.innerHTML;  
+          continue;
+        }
+      }
+      i++;
+    }
+</script>
+
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js" integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+
+
+
+    
+  
+  
+</footer>
+
+      </div>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Journal Articles on Personal Site</title>
+    <link>https://www.arispas.com/categories/journal-articles/</link>
+    <description>Recent content in Journal Articles on Personal Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 01 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.arispas.com/categories/journal-articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Patient-Reported Mental Health Score Influences Physical Function After Primary Total Knee Arthroplasty</title>
+      <link>https://www.arispas.com/publications/promis-mh-tka/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/publications/promis-mh-tka/</guid>
+      <description>A study investigating the effect of preoperative mental health on postoperative physical function following total knee arthroplasty.</description>
+    </item>
+    
+    <item>
+      <title>Predictive Models of Mortality for Hospitalized Patients With COVID-19: Retrospective Cohort Study</title>
+      <link>https://www.arispas.com/publications/covid-study/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/publications/covid-study/</guid>
+      <description>A COVID-19 study developing models to predict the mortality of hospitalized patients using basic demographics and easily obtainable laboratory data.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aris Paschalidis on Personal Site</title>
+    <link>https://www.arispas.com/</link>
+    <description>Recent content in Aris Paschalidis on Personal Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.arispas.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Use OOP?</title>
+      <link>https://www.arispas.com/blog/2021-12-24-why-use-oop/</link>
+      <pubDate>Fri, 24 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/blog/2021-12-24-why-use-oop/</guid>
+      <description>R is traditionally a functional programming language, meaning that when we code in R, we tend to think in terms of functions. For instance, given a data set, what function can I create to plot a certain variable? Object oriented programming (OOP) introduces the concept of &amp;ldquo;classes.&amp;rdquo; While classes are used extensively in other programming languages such as Java, their use in R differs from conventional uses. In part, this is because R has several unique OOP systems which differ from one another in key ways.</description>
+    </item>
+    
+    <item>
+      <title>coiaf</title>
+      <link>https://www.arispas.com/software/coiaf/</link>
+      <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/software/coiaf/</guid>
+      <description>Introduction     In malaria, individuals are often infected with different parasite strains, with the complexity of infection (COI) giving the number of genetically different parasite strains in an individual. Changes in the mean COI in a population have been shown to be informative of changes in transmission intensity with a number of probabilistic likelihood and Bayesian models now developed to estimate COI. However, rapid, direct measures based on heterozygosity or FwS have not been directly related to the COI.</description>
+    </item>
+    
+    <item>
+      <title>coiaf: complexity of infection estimation with allele frequencies</title>
+      <link>https://www.arispas.com/publications/coiaf/</link>
+      <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/publications/coiaf/</guid>
+      <description>A software package that incorporates two new methods that use easily calculated measures to directly estimate the complexity of infection (COI) from sequence read depth data.</description>
+    </item>
+    
+    <item>
+      <title>MIPTools</title>
+      <link>https://www.arispas.com/software/miptools/</link>
+      <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/software/miptools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using R with Git and Github</title>
+      <link>https://www.arispas.com/blog/2021-10-13-r-with-git/</link>
+      <pubDate>Wed, 13 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/blog/2021-10-13-r-with-git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>miplicorn</title>
+      <link>https://www.arispas.com/software/miplicorn/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/software/miplicorn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Patient-Reported Mental Health Score Influences Physical Function After Primary Total Knee Arthroplasty</title>
+      <link>https://www.arispas.com/publications/promis-mh-tka/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/publications/promis-mh-tka/</guid>
+      <description>A study investigating the effect of preoperative mental health on postoperative physical function following total knee arthroplasty.</description>
+    </item>
+    
+    <item>
+      <title>Predictive Models of Mortality for Hospitalized Patients With COVID-19: Retrospective Cohort Study</title>
+      <link>https://www.arispas.com/publications/covid-study/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/publications/covid-study/</guid>
+      <description>A COVID-19 study developing models to predict the mortality of hospitalized patients using basic demographics and easily obtainable laboratory data.</description>
+    </item>
+    
+    <item>
+      <title>CAvaccines</title>
+      <link>https://www.arispas.com/software/cavaccines/</link>
+      <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/software/cavaccines/</guid>
+      <description>The goal of CAvaccines is to analyze the relationship between vaccination rates and infectious disease incidence in California counties.
+Installation     To install the package, please run the code below. In order to install, {devtools} must be installed.
+# install.packages(&amp;#34;devtools&amp;#34;) devtools::install_github(&amp;#34;arisp99/CAvaccines&amp;#34;)  Usage     In order to run the main script, please refer to the included vignettes. These can also be found under the Articles tab in the website.</description>
+    </item>
+    
+    <item>
+      <title>Predictors Of Continuing Improvement After 1st Month Of CRT Implantation In Women With Heart Failure (hf)</title>
+      <link>https://www.arispas.com/publications/hf-crt-implant/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/publications/hf-crt-implant/</guid>
+      <description>A study aiming to investigate the improvement in cardiac function and performance at 3 different time points after implantation of a CRT device in women.</description>
+    </item>
+    
+    <item>
+      <title>Changes in plasma extracellular RNAs: Independent associations with left and right ventricular reverse remodeling</title>
+      <link>https://www.arispas.com/publications/pearl-hf/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/publications/pearl-hf/</guid>
+      <description>A study investigating the relationship between extracellular RNAs and cardiac remodeling in patients with chronic heart failure.</description>
+    </item>
+    
+    <item>
+      <title>nof1gen</title>
+      <link>https://www.arispas.com/software/nof1gen/</link>
+      <pubDate>Thu, 07 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/software/nof1gen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regression and classification using optimal decision trees</title>
+      <link>https://www.arispas.com/publications/optimal-decision-trees/</link>
+      <pubDate>Fri, 03 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/publications/optimal-decision-trees/</guid>
+      <description>A study investigating the benefits of an optimal decision tree approach, which creates the entire decision tree at once using Mixed Integer Optimization (MIO). We apply these trees on a novel application concerning the usage of CT imagining to diagnose head injuries in children.</description>
+    </item>
+    
+    <item>
+      <title>UCIData</title>
+      <link>https://www.arispas.com/software/ucidata/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/software/ucidata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://www.arispas.com/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>License</title>
+      <link>https://www.arispas.com/license/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/license/</guid>
+      <description>My blog posts are released under a Creative Commons Attribution-ShareAlike 4.0 International License.
+  </description>
+    </item>
+    
+  </channel>
+</rss>

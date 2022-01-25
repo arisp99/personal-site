@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conference Proceedings on Personal Site</title>
+    <link>https://www.arispas.com/categories/conference-proceedings/</link>
+    <description>Recent content in Conference Proceedings on Personal Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 03 Nov 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://www.arispas.com/categories/conference-proceedings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Regression and classification using optimal decision trees</title>
+      <link>https://www.arispas.com/publications/optimal-decision-trees/</link>
+      <pubDate>Fri, 03 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/publications/optimal-decision-trees/</guid>
+      <description>A study investigating the benefits of an optimal decision tree approach, which creates the entire decision tree at once using Mixed Integer Optimization (MIO). We apply these trees on a novel application concerning the usage of CT imagining to diagnose head injuries in children.</description>
+    </item>
+    
+  </channel>
+</rss>

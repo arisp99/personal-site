@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Personal Site</title>
+    <link>https://www.arispas.com/categories/</link>
+    <description>Recent content in Categories on Personal Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.arispas.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Posts</title>
+      <link>https://www.arispas.com/categories/posts/</link>
+      <pubDate>Fri, 24 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/categories/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>package</title>
+      <link>https://www.arispas.com/categories/package/</link>
+      <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/categories/package/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Poster Presentation</title>
+      <link>https://www.arispas.com/categories/poster-presentation/</link>
+      <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/categories/poster-presentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>https://www.arispas.com/categories/r/</link>
+      <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/categories/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://www.arispas.com/categories/research/</link>
+      <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/categories/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Container</title>
+      <link>https://www.arispas.com/categories/container/</link>
+      <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/categories/container/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://www.arispas.com/categories/python/</link>
+      <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/categories/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Singularity</title>
+      <link>https://www.arispas.com/categories/singularity/</link>
+      <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/categories/singularity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Talks</title>
+      <link>https://www.arispas.com/categories/talks/</link>
+      <pubDate>Wed, 13 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/categories/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Journal Articles</title>
+      <link>https://www.arispas.com/categories/journal-articles/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/categories/journal-articles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conference Proceedings</title>
+      <link>https://www.arispas.com/categories/conference-proceedings/</link>
+      <pubDate>Fri, 03 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/categories/conference-proceedings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Julia</title>
+      <link>https://www.arispas.com/categories/julia/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/categories/julia/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

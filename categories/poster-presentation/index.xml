@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Poster Presentation on Personal Site</title>
+    <link>https://www.arispas.com/categories/poster-presentation/</link>
+    <description>Recent content in Poster Presentation on Personal Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 19 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.arispas.com/categories/poster-presentation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>coiaf: complexity of infection estimation with allele frequencies</title>
+      <link>https://www.arispas.com/publications/coiaf/</link>
+      <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/publications/coiaf/</guid>
+      <description>A software package that incorporates two new methods that use easily calculated measures to directly estimate the complexity of infection (COI) from sequence read depth data.</description>
+    </item>
+    
+    <item>
+      <title>Patient-Reported Mental Health Score Influences Physical Function After Primary Total Knee Arthroplasty</title>
+      <link>https://www.arispas.com/publications/promis-mh-tka/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/publications/promis-mh-tka/</guid>
+      <description>A study investigating the effect of preoperative mental health on postoperative physical function following total knee arthroplasty.</description>
+    </item>
+    
+    <item>
+      <title>Predictors Of Continuing Improvement After 1st Month Of CRT Implantation In Women With Heart Failure (hf)</title>
+      <link>https://www.arispas.com/publications/hf-crt-implant/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/publications/hf-crt-implant/</guid>
+      <description>A study aiming to investigate the improvement in cardiac function and performance at 3 different time points after implantation of a CRT device in women.</description>
+    </item>
+    
+    <item>
+      <title>Changes in plasma extracellular RNAs: Independent associations with left and right ventricular reverse remodeling</title>
+      <link>https://www.arispas.com/publications/pearl-hf/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arispas.com/publications/pearl-hf/</guid>
+      <description>A study investigating the relationship between extracellular RNAs and cardiac remodeling in patients with chronic heart failure.</description>
+    </item>
+    
+  </channel>
+</rss>

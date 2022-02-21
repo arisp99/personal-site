@@ -8,3 +8,4 @@ Thumbs.db
 /resources/
 content/blog/potential-posts\.md
 **/*.js
+.hugo_build.lock

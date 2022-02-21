@@ -9,13 +9,20 @@ selected: yes
 image:
   focal_point: ''
   preview_only: no
-categories: Posts
+categories: Blogs
 tags:
 - OOP
 - S3
 ---
 
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
 
+library(s3examples)
+```
 
 R is traditionally a functional programming language, meaning that when we code
 in R, we tend to think in terms of functions. For instance, given a data set,
@@ -38,59 +45,28 @@ type of data format. Perhaps there you are interested in a specific column and
 want to ensure your data has this column present. For instance, let us take a
 look at the following dataset.
 
+```{r example data, echo = FALSE}
+ref_file <- miplicorn::miplicorn_example("reference_AA_table.csv")
+alt_file <- miplicorn::miplicorn_example("alternate_AA_table.csv")
+cov_file <- miplicorn::miplicorn_example("coverage_AA_table.csv")
 
-```
-#> Registered S3 methods overwritten by 'miplicorn':
-#>   method            from      
-#>   $<-.mut_prev      s3examples
-#>   [.mut_prev        s3examples
-#>   names<-.mut_prev  s3examples
-#>   autoplot.mut_prev s3examples
-#>   plot.mut_prev     s3examples
-#> # A tibble: 832 × 10
-#>    sample     gene_id       gene  mutation_name  exonic_func  aa_change targeted
-#>    <chr>      <chr>         <chr> <chr>          <chr>        <chr>     <chr>   
-#>  1 D10-JJJ-23 PF3D7_0106300 atp6  atp6-Ala623Glu missense_va… Ala623Glu Yes     
-#>  2 D10-JJJ-43 PF3D7_0106300 atp6  atp6-Ala623Glu missense_va… Ala623Glu Yes     
-#>  3 D10-JJJ-55 PF3D7_0106300 atp6  atp6-Ala623Glu missense_va… Ala623Glu Yes     
-#>  4 D10-JJJ-5  PF3D7_0106300 atp6  atp6-Ala623Glu missense_va… Ala623Glu Yes     
-#>  5 D10-JJJ-47 PF3D7_0106300 atp6  atp6-Ala623Glu missense_va… Ala623Glu Yes     
-#>  6 D10-JJJ-15 PF3D7_0106300 atp6  atp6-Ala623Glu missense_va… Ala623Glu Yes     
-#>  7 D10-JJJ-27 PF3D7_0106300 atp6  atp6-Ala623Glu missense_va… Ala623Glu Yes     
-#>  8 D10-JJJ-10 PF3D7_0106300 atp6  atp6-Ala623Glu missense_va… Ala623Glu Yes     
-#>  9 D10-JJJ-28 PF3D7_0106300 atp6  atp6-Ala623Glu missense_va… Ala623Glu Yes     
-#> 10 D10-JJJ-52 PF3D7_0106300 atp6  atp6-Ala623Glu missense_va… Ala623Glu Yes     
-#> # … with 822 more rows, and 3 more variables: ref_umi_count <dbl>,
-#> #   alt_umi_count <dbl>, coverage <dbl>
+data <- miplicorn::read_tbl_ref_alt_cov(
+  ref_file,
+  alt_file,
+  cov_file,
+  gene == "atp6" | gene == "crt"
+)
+
+data
 ```
 
 Let us say we want to create a function `mutation_prevalence` which determines
 the prevalence of each mutation in the dataset. Moreover, we would like to plot
 this prevalence.
 
-
-```r
+```{r mutation prev}
 prevalence <- mutation_prevalence(data, 5)
 prevalence
-#> # A tibble: 16 × 4
-#>    mutation_name  n_total n_mutant prevalence
-#>    <chr>            <int>    <int>      <dbl>
-#>  1 atp6-Ala623Glu      36       NA     NA    
-#>  2 atp6-Glu431Lys      39       NA     NA    
-#>  3 atp6-Gly639Asp      26       19      0.731
-#>  4 atp6-Ser466Asn      15        9      0.6  
-#>  5 atp6-Ser769Asn      17       NA     NA    
-#>  6 crt-Ala220Ser       11        4      0.364
-#>  7 crt-Asn326Asp       21        8      0.381
-#>  8 crt-Asn326Ser       26       NA     NA    
-#>  9 crt-Asn75Glu        29       24      0.828
-#> 10 crt-Cys72Ser        31       23      0.742
-#> 11 crt-His97Leu        47       NA     NA    
-#> 12 crt-His97Tyr        47       NA     NA    
-#> 13 crt-Ile356Leu       22       15      0.682
-#> 14 crt-Ile356Thr       41       18      0.439
-#> 15 crt-Lys76Thr        29       25      0.862
-#> 16 crt-Met74Ile        29       24      0.828
 ```
 
 While creating this function may require some thought, it makes intuitive sense
@@ -103,8 +79,7 @@ the `mutation_name` and the `prevalence`.
 If we were to create an function, `plot_prevalence`, the easiest way to code it
 would be to give the function a `data` argument:
 
-
-```r
+```{r basic fn, eval = FALSE}
 plot_prevalence <- function(data) {
   # code for plotting goes here
 }
@@ -118,8 +93,7 @@ of `mutation_prevalence()`. How could we address this potential problem?
 
 The most obvious solution would be to check that some key columns exist:
 
-
-```r
+```{r key columns, eval = FALSE}
 plot_prevalence <- function(data) {
   if (!"mutation_name" %in% colnames(data)) {
     stop("Missing key column!", call. = FALSE)
@@ -133,8 +107,7 @@ Howerver, another strategy would be to use classes! If we assigned a class, say
 `mut_prev`, to the output of `mutation_prevalence()`, we could easily check if
 the input is of type `mut_prev`:
 
-
-```r
+```{r class check, eval = FALSE}
 plot_prevalence <- function(data) {
   if (!inherits(data, "mut_prev")) {
     stop("Wrong class input!", call. = FALSE)
@@ -154,19 +127,12 @@ ability to use the same function for many types of input. An example of this
 behavior is the base R function `print()` which behaves differently depending on
 the class of the input.
 
-
-```r
+```{r print behavior}
 # A vector
 print(c(1, 2))
-#> [1] 1 2
 
 # A tibble
 print(tibble::as_tibble(c(1, 2)))
-#> # A tibble: 2 × 1
-#>   value
-#>   <dbl>
-#> 1     1
-#> 2     2
 ```
 
 Using OOP, developers can customize how certain functions interact with certain
@@ -175,8 +141,7 @@ is printed! Another common example is plotting a dataset. Say we have developed
 a package that introduces three different classes of datasets. We can then
 create a plot method for each type of class.
 
-
-```r
+```{r print methods, eval = FALSE}
 plot.class1 <- function(x) {
   # plotting code
 }
@@ -193,12 +158,9 @@ plot.class3 <- function(x) {
 We can witness this in action with our class `mut_prev`. When we call `plot()`
 a custom plot specific to only our class is generated!
 
-
-```r
+```{r plot class}
 plot(prevalence)
 ```
-
-<img src="{{< blogdown/postref >}}index_files/figure-html/plot class-1.png" width="672" />
 
 [^1]: The term polymorphism has been taken from [Advanced
 R](https://adv-r.hadley.nz/oo.html#oop-systems).

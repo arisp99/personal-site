@@ -5,8 +5,8 @@
 
 # Appearance
 
-theme: minimal
-day_night: true
+theme: 'primary'
+day_night: false
 font: 'custom_fonts'
 font_size: L
 

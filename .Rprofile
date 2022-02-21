@@ -20,9 +20,9 @@ options(
   blogdown.method = 'markdown'
 
   # blogdown.author = "Aris Paschalidis",
-  # blogdown.ext = ".Rmarkdown",
+  # blogdown.ext = ".Rmarkdown"
   # blogdown.subdir = "post"
 )
 
 # fix Hugo version
-options(blogdown.hugo.version = "0.92.2")
+options(blogdown.hugo.version = "0.88.1")

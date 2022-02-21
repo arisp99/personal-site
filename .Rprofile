@@ -1,4 +1,3 @@
-source("renv/activate.R")
 # REMEMBER to restart R after you modify and save this file!
 
 # First, execute the global .Rprofile if it exists. You may configure blogdown
@@ -18,10 +17,6 @@ options(
   blogdown.knit.on_save = FALSE,
   # build .Rmd to .html (via Pandoc); to build to Markdown, set this option to 'markdown'
   blogdown.method = 'markdown'
-
-  # blogdown.author = "Aris Paschalidis",
-  # blogdown.ext = ".Rmarkdown"
-  # blogdown.subdir = "post"
 )
 
 # fix Hugo version

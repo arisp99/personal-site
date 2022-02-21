@@ -1,6 +1,6 @@
 ---
 authors:
-- admin
+- arisp99
 - 吳恩達
 categories:
 - Demo
@@ -80,7 +80,7 @@ As a token of appreciation for sponsoring, you can **unlock [these](https://wowc
 
 ## Themes
 
-Wowchemy and its templates come with **automatic day (light) and night (dark) mode** built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the [Demo](https://academic-demo.netlify.com/) to see it in action! Day/night mode can also be disabled by the site admin in `params.toml`.
+Wowchemy and its templates come with **automatic day (light) and night (dark) mode** built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the [Demo](https://academic-demo.netlify.com/) to see it in action! Day/night mode can also be disabled by the site arisp99 in `params.toml`.
 
 [Choose a stunning **theme** and **font**](https://wowchemy.com/docs/customization) for your site. Themes are fully customizable.
 

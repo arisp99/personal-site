@@ -5,6 +5,12 @@ show_date: false
 external_link: ""
 summary: A unified framework for molecular inversion probe and amplicon
   analysis.
+image:  
+  placement: 1
+  caption: "Photo by [Wikimedia
+  Commons](https://commons.wikimedia.org/wiki/File:Maize_DNA_mosaic_(angled_detail).jpg)."
+  focal_point: "Smart"
+  preview_only: false
 tags:
 - Genomics
 - R Package

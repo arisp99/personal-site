@@ -5,6 +5,12 @@ show_date: false
 external_link: ""
 summary: Analyzing the relationship between vaccination rates and infectious
   disease incidence in California counties.
+image:  
+  placement: 1
+  caption: "Photo by
+  [abc7news](https://abc7news.com/bay-area-covid-19-vaccination-data-lowest-vaccinated-rate-solano-county/10917940/)."
+  focal_point: "Smart"
+  preview_only: false
 tags:
 - R Package
 links:

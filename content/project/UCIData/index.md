@@ -5,6 +5,11 @@ show_date: false
 external_link: ""
 summary: A package for accessing UCI Machine Learning Repository data sets
   inside Julia.
+image:  
+  placement: 1
+  caption: "Photo by [UCI](https://archive.ics.uci.edu/ml/datasets.php)."
+  focal_point: "Smart"
+  preview_only: false
 tags:
 - Julia
 - package

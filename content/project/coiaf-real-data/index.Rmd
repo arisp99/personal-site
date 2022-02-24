@@ -1,0 +1,61 @@
+---
+title: COI Around the World
+author: the Bailey Lab
+date: "2022-02-23"
+show_date: false
+external_link: ""
+summary:  Complexity of infection (COI) in _Plasmodium falciparum_ around the
+  world using coiaf.
+image:  
+  placement: 1
+  caption: "Photo by [MalariaGEN](https://twitter.com/malariagenomics)."
+  focal_point: "Smart"
+  preview_only: false
+tags:
+- Malaria
+- Genomics
+- R
+links:
+  - icon: github
+    icon_pack: fab
+    name: Code
+    url: https://github.com/bailey-lab/coiaf-real-data
+url_code: ""
+url_pdf: ""
+url_slides: ""
+url_video: ""
+bibliography: references.bib
+link-citations: true
+csl: ../../../static/csl-files/plos-computational-biology.csl
+---
+
+Malaria remains a leading cause of death worldwide—in 2020, there were an
+estimated 241 million cases and 627,000 deaths around the globe
+[@organization_world_2021]. Despite the considerable burden of malaria, these
+numbers represent substantial progress that has been made globally to control
+malaria in the last two decades. However, there is evidence that progress has
+slowed and that there is a need for new approaches to capitalize on the gains
+made [@organization_world_2020].
+
+One approach is the use of computational methods to help inform eradication
+efforts, which often rely on recent advances in genetic sequencing and an
+increased understanding of malaria biology [@andrade_towards_2010;
+@band_insights_2019; @timmann_genome-wide_2012]. While determining the exact
+metrics that are most informative is an active field of investigation
+[@watson_evaluating_2021], one important metric is the complexity of infection
+(COI). The COI represents the number of genetically distinct malaria genomes or
+strains that can be identified in a particular individual and has been
+increasingly used for inferring malaria transmission intensity and evaluating
+malaria control interventions [@daniels_modeling_2015].
+
+Using our newly developed software package,
+[coiaf](https://arispas.com/project/coiaf/), we analysed samples from the
+MalariaGEN _Plasmodium falciparum_ Community Project [@malariagen_open_2021].
+The MalariaGEN _Plasmodium falciparum_ Community Project provides genomic data
+from over 7,000 _P. falciparum_ samples from 28 malaria-endemic countries in
+Africa, Asia, South America, and Oceania from 2002-2015. Detailed information
+about the data release including brief descriptions of contributing partner
+studies and study locations is available in the supplementary of MalariaGEN _et
+al_.
+
+## References

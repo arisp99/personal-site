@@ -12,11 +12,11 @@ tags:
 links:
   - icon: book-open
     icon_pack: fas
-    name: website
+    name: Website
     url: https://bailey-lab.github.io/coiaf/
   - icon: github
     icon_pack: fab
-    name: code
+    name: Code
     url: https://github.com/bailey-lab/coiaf
 url_code: ""
 url_pdf: ""

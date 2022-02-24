@@ -3,9 +3,6 @@ title: miplicorn
 date: "2021-07-01"
 show_date: false
 external_link: ""
-image:
-  caption: Photo by rawpixel on Unsplash
-  focal_point: Smart
 summary: A unified framework for molecular inversion probe and amplicon
   analysis.
 tags:

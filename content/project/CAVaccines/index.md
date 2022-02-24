@@ -10,11 +10,11 @@ tags:
 links:
 - icon: book-open
   icon_pack: fas
-  name: website
+  name: Website
   url: https://cavaccines.arispas.com/
 - icon: github
   icon_pack: fab
-  name: code
+  name: Code
   url: https://github.com/arisp99/CAvaccines
 url_code: ""
 url_pdf: ""

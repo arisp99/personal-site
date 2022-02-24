@@ -14,11 +14,11 @@ tags:
 links:
   - icon: book-open
     icon_pack: fas
-    name: website
+    name: Website
     url: https://bailey-lab.github.io/MIPTools/
   - icon: github
     icon_pack: fab
-    name: code
+    name: Code
     url: https://github.com/bailey-lab/MIPTools
 url_code: ""
 url_pdf: ""
@@ -26,5 +26,5 @@ url_slides: ""
 url_video: ""
 ---
 
- suite of computational tools used for molecular inversion probe
-  design, data processing, and analysis.
+ A suite of computational tools used for molecular inversion probe design, data
+ processing, and analysis.

@@ -3,14 +3,15 @@ title: UCIData
 date: "2017-01-01"
 show_date: false
 external_link: ""
-summary: A package for accessing UCI Machine Learning Repository data sets inside Julia.
+summary: A package for accessing UCI Machine Learning Repository data sets
+  inside Julia.
 tags:
 - Julia
 - package
 links:
   - icon: github
     icon_pack: fab
-    name: code
+    name: Code
     url: https://github.com/JackDunnNZ/UCIData.jl
 url_code: ""
 url_pdf: ""

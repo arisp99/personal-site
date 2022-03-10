@@ -1,0 +1,9 @@
+/*************************************************
+ *  Card Component Customization
+ **************************************************/
+
+.card-simple {
+  background: $sta-home-section-odd;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+  border: unset;
+}

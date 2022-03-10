@@ -28,3 +28,52 @@
   transition: color 0.6s !important;
   transition: border-bottom 0.6s !important;
 }
+
+/*************************************************
+ *  Code Clipboard Button
+ **************************************************/
+
+.clipboard-button {
+  color: #998;
+  background-color: #f8f8f8;
+  border-color: background-color;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.09);
+  border-radius: 5px;
+  font-size: 0.8em;
+  padding: 2px 7px 5px 7px;
+
+  // Position of button
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: -35px;
+
+  // Make copy button invisible
+  opacity: 0;
+}
+.clipboard-button:hover {
+  background-color: #e0e0e0;
+  transition: background-color 0.6s !important; // Use important to override
+}
+.clipboard-button:focus {
+  outline: 0;
+}
+
+// SVG sub class
+// These define the fill of the image within the button
+.clipboard-button > svg {
+  fill: #998;
+}
+.clipboard-button:hover > svg {
+  fill: #696969;
+  transition: fill 0.6s;
+}
+
+// Make copy button visible when hover over pre block
+pre:hover > .clipboard-button {
+  opacity: 1;
+  transition: opacity 0.2s;
+}

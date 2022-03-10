@@ -49,6 +49,4 @@ to infectious diseases, he is passionate about medicine and has actively worked
 on leveraging data analytics to inform local-decision making by physicians and
 showcasing the effect of more holistic and personalized treatment.
 
-<!---
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
---->
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "cv-resume/cv.pdf" "newtab" >}}curriculum vitae{{< /staticref >}}.

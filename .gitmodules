@@ -1,0 +1,3 @@
+[submodule "static/cv-resume"]
+	path = static/cv-resume
+	url = https://github.com/arisp99/cv-resume

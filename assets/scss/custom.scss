@@ -30,6 +30,42 @@
 }
 
 /*************************************************
+ *  Buttons
+ **************************************************/
+
+// General button settings
+.btn {
+  border-radius: 8px;
+  transition: 0.6s !important;
+}
+
+.btn:hover {
+
+}
+
+// Toolbar buttons
+.btn-toolbar .btn:first-child {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.btn-toolbar .btn:last-child {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.btn-sm {
+  color: #212529;
+  border-color: #212529;
+  border-radius: 6px !important;
+  transition: 0.6s !important;
+}
+
+.btn-sm:hover {
+  border-color: $sta-primary !important;
+}
+
+/*************************************************
  *  Code Clipboard Button
  **************************************************/
 

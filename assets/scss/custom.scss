@@ -123,6 +123,15 @@ pre:hover > .clipboard-button {
 }
 
 /*************************************************
+ *  Image Zoom
+ **************************************************/
+
+.medium-zoom--opened .medium-zoom-overlay {
+  background: $sta-background !important;
+  opacity: 0.8 !important;
+}
+
+/*************************************************
  *  Footer Heart Icon
  **************************************************/
 

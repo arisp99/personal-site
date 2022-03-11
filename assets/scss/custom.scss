@@ -77,3 +77,14 @@ pre:hover > .clipboard-button {
   opacity: 1;
   transition: opacity 0.2s;
 }
+
+/*************************************************
+ *  Footer Heart Icon
+ **************************************************/
+
+.fa-heart {
+  color: $sta-link;
+  // If we want a solid heart, can change the html to be fa fa-heart instead of
+  // far-heart. We can set the fill color using the below.
+  // fill: $sta-link;
+}

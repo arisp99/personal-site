@@ -42,10 +42,10 @@ superuser: true
 title: Aris Paschalidis
 ---
 
-Aris is a bioinformatician at the [Bailey Lab](http://www.baileylab.org/) at
-[Brown University](https://www.brown.edu/). He works on developing software to
+I am a bioinformatician at the [Bailey Lab](http://www.baileylab.org/) at [Brown
+University](https://www.brown.edu/). I primarily work on developing software to
 study the genetics and genomics of infectious disease and immunity. In addition
-to infectious diseases, he is passionate about medicine and has actively worked
+to infectious diseases, I am passionate about medicine and have actively worked
 on leveraging data analytics to inform local-decision making by physicians and
 showcasing the effect of more holistic and personalized treatment.
 

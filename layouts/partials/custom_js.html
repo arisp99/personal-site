@@ -3,6 +3,14 @@
   <script async defer src="https://buttons.github.io/buttons.js"></script>
 {{end}}
 
+<!-- Install Animate.css -->
+<head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+
 <!-- Copy Code Button -->
 {{ if (findRE "<pre" .Content 1) }}
     <script src="/js/clipboard.js"></script>

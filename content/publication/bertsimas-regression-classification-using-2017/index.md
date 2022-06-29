@@ -12,10 +12,10 @@ doi: "10.1109/URTC.2017.8284195"
 publishDate: 2022-02-21T01:01:19.356402Z
 
 # Publication type.
-# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
-# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
-# 7 = Thesis; 8 = Patent
-publication_types: ["1"]
+# Legend: 0 = Uncategorized; 1 = Journal article; 2 = Preprint;
+# 3 = Working Paper; 4 = Conference paper; 5 = Oral presentation; 
+# 6 = Poster presentation; 7 = Thesis; 8 = Book; 9 = Book Section
+publication_types: ["4"]
 
 # Abstract and optional shortened version
 abstract: "Current state-of-the-art decision tree algorithms, such as

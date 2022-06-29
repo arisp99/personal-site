@@ -8,10 +8,10 @@ doi: ""
 publishDate: 2022-02-21T01:01:19.359832Z
 
 # Publication type.
-# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
-# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
-# 7 = Thesis; 8 = Patent
-publication_types: ["0"]
+# Legend: 0 = Uncategorized; 1 = Journal article; 2 = Preprint;
+# 3 = Working Paper; 4 = Conference paper; 5 = Oral presentation; 
+# 6 = Poster presentation; 7 = Thesis; 8 = Book; 9 = Book Section
+publication_types: ["6"]
 
 # Publication name and optional abbreviated publication name.
 publication: "Presented at: Cardiovascular Research Center Retreat"

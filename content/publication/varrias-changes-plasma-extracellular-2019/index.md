@@ -31,7 +31,7 @@ featured: false
 url_pdf: ""
 url_code: ""
 url_dataset: ""
-url_poster: "poster.pdf"
+url_poster: "exRNA_LV_RV_poster.pdf"
 url_project: ""
 url_slides: ""
 url_source: ""

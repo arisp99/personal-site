@@ -11,10 +11,12 @@ interests:
 - Medicine
 - Health Analytics
 - Artificial Intelligence
+- Machine Learning
+- Bioinformatics
 organizations:
-- name: "Bailey Lab, Brown University"
-  url: http://www.baileylab.org/
-role: Bioinformatician
+- name: "UMass Chan Medical School"
+  url: https://www.umassmed.edu/
+role: Medical Student
 social:
 - icon: paper-plane
   icon_pack: fas
@@ -42,11 +44,14 @@ superuser: true
 title: Aris Paschalidis
 ---
 
-I am a bioinformatician at the [Bailey Lab](http://www.baileylab.org/) at [Brown
-University](https://www.brown.edu/). I primarily work on developing software to
-study the genetics and genomics of infectious disease and immunity. In addition
-to infectious diseases, I am passionate about medicine and have actively worked
-on leveraging data analytics to inform local-decision making by physicians and
-showcasing the effect of more holistic and personalized treatment.
+I am a first-year medical student at the UMass Chan Medical School. I am
+interested in combining clinical practice and academic medicine to transform
+medicine, inform local-decision making by physicians, and homogenize care by
+leveraging computational techniques.
+
+Previously, I worked as a bioinformatician at the [Bailey
+Lab](http://www.baileylab.org/) at [Brown University](https://www.brown.edu/). I
+primarily worked on developing software to study the genetics and genomics of
+infectious disease and immunity.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "cv-resume/cv.pdf" "newtab" >}}curriculum vitae{{< /staticref >}}.

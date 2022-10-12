@@ -23,15 +23,15 @@ twitter: ''
 # email: aris.paschalidis@gmail.com
 # phone: 888 888 88 88
 address:
-  street: 55 N Lake Ave
+  street: '55 N Lake Ave'
   city: Worcester
   region: MA
-  postcode: 01655
+  postcode: '01655'
   country: United States
   country_code: US
 coordinates:
-  latitude: 42.278779667016835
-  longitude: -71.76325370215565
+  latitude: '42.278779667016835'
+  longitude: '-71.76325370215565'
 # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
 # office_hours:
 #  - 'Monday 10:00 to 13:00'

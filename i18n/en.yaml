@@ -191,8 +191,8 @@
 - id: pub_conf
   translation: Conference paper
 
-- id: pub_oral
-  translation: Oral presentation
+- id: pub_podium
+  translation: Podium presentation
 
 - id: pub_poster
   translation: Poster presentation

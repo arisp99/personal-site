@@ -6,7 +6,7 @@ types = [
   "pub_preprint",
   "pub_working",
   "pub_conf",
-  "pub_oral",
+  "pub_podium",
   "pub_poster",
   "pub_thesis",
   "pub_book",

@@ -15,7 +15,7 @@ publishDate: 2022-06-02T01:01:19.358615Z
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Journal article; 2 = Preprint;
-# 3 = Working Paper; 4 = Conference paper; 5 = Oral presentation; 
+# 3 = Working Paper; 4 = Conference paper; 5 = Podium presentation; 
 # 6 = Poster presentation; 7 = Thesis; 8 = Book; 9 = Book Section
 publication_types: ["5"]
 

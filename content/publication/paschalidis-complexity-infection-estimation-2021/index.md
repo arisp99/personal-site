@@ -1,6 +1,6 @@
 ---
 title: "Complexity of Infection Estimation with Allele Frequencies"
-authors: ["Aris Paschalidis", "Oliver J. Watson", "Robert J. Verity", "Jeffrey A. Bailey"]
+authors: ["arisp99", "Oliver J. Watson", "Robert J. Verity", "Jeffrey A. Bailey"]
 date: 2021-11-01
 
 # Schedule page publish date (NOT publication's date).

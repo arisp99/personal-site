@@ -1,7 +1,7 @@
 ---
 title: "coiaf: Directly Estimating Complexity of Infection with Allele Frequencies"
 authors: 
-- Aris Paschalidis
+- arisp99
 - Oliver J. Watson
 - Robert J. Verity
 - Jeffrey A. Bailey

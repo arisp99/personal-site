@@ -1,6 +1,6 @@
 ---
 title: "Regression and Classification Using Optimal Decision Trees"
-authors: ["Dimitris Bertsimas", "Jack Dunn", "Aris Paschalidis"]
+authors: ["Dimitris Bertsimas", "Jack Dunn", "arisp99"]
 author_notes:
 - ""
 - ""

@@ -2,7 +2,7 @@
 title: "Patient-Reported Outcomes Following Revision Total Hip Arthroplasty Demonstrate Less Improvement and Significantly Higher Rates of Worsening Compared to Primaries"
 authors: 
 - Mehdi S. Salimy
-- Aris Paschalidis
+- arisp99
 - Jacquelyn Dunahoe
 - Antonia F. Chen
 - Kyle Alpaugh

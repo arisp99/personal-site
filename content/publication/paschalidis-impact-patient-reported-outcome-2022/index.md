@@ -1,7 +1,7 @@
 ---
 title: "The Impact of Patient-Reported Outcome Measurement Information System Mental Health Scores on Physical Function After Primary Total Hip Arthroplasty"
 authors: 
-- Aris Paschalidis
+- arisp99
 - Mehdi S. Salimy
 - Matthew G. Robinson
 - Antonia F. Chen

@@ -1,6 +1,6 @@
 ---
 title: "Predictive Models of Mortality for Hospitalized Patients With COVID-19: Retrospective Cohort Study"
-authors: ["Taiyao Wang", "Aris Paschalidis", "Quanying Liu", "Yingxia Liu", "Ye Yuan", "Ioannis Ch Paschalidis"]
+authors: ["Taiyao Wang", "arisp99", "Quanying Liu", "Yingxia Liu", "Ye Yuan", "Ioannis Ch Paschalidis"]
 date: "2020-10-01"
 doi: "10.2196/21788"
 

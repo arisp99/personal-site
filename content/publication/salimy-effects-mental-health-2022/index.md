@@ -2,7 +2,7 @@
 title: "The Effects of a Mental Health Diagnosis on Achieving the Minimal Clinically Important Difference in Primary and Revision Total Joint Arthroplasty"
 authors: 
 - Mehdi S. Salimy
-- Aris Paschalidis
+- arisp99
 - Jacquelyn Dunahoe
 - Antonia F. Chen
 - Todd M. O'Brien

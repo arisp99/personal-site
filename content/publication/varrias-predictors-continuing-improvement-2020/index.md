@@ -6,7 +6,7 @@ authors:
 - Vikramaditya Samala
 - Megan Zhao
 - Miguel Ángel Armengol de la Hoz
-- Aris Paschalidis
+- arisp99
 - Ravi Shah
 - Michael Silverman
 - Kevin Heist

@@ -1,6 +1,6 @@
 ---
 title: "Patient-Reported Mental Health Score Influences Physical Function After Primary Total Knee Arthroplasty"
-authors: ["Christopher M. Melnic", "Aris Paschalidis", "Akhil Katakam", "Hany S. Bedair", "Marilyn Heng", "Antonia F. Chen", "Todd M. O'Brien", "Rachel C. Sisodia"]
+authors: ["Christopher M. Melnic", "arisp99", "Akhil Katakam", "Hany S. Bedair", "Marilyn Heng", "Antonia F. Chen", "Todd M. O'Brien", "Rachel C. Sisodia"]
 date: 2021-04-01
 doi: "10.1016/j.arth.2020.10.031"
 

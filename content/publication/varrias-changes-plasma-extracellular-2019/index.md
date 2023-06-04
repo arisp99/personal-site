@@ -1,6 +1,6 @@
 ---
 title: "Changes in Plasma Extracellular RNAs: Independent Associations with Left and Right Ventricular Reverse Remodeling"
-authors: ["Dimitrios Varrias", "Aris Paschalidis", "Sam Michelhaugh", "Avash Das", "Ashish Yeri", "Aferdita Spahillari", "James Januzzi", "Ravi Shah", "Mike Silverman", "Saumya Das"]
+authors: ["Dimitrios Varrias", "arisp99", "Sam Michelhaugh", "Avash Das", "Ashish Yeri", "Aferdita Spahillari", "James Januzzi", "Ravi Shah", "Mike Silverman", "Saumya Das"]
 date: 2019-01-01
 doi: ""
 

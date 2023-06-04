@@ -2,7 +2,7 @@
 title: "Time to Achieve the Minimal Clinically Important Difference in Primary Total Hip Arthroplasty: Comparison of Anterior and Posterior Surgical Approaches"
 authors: 
 - Mehdi S. Salimy
-- Aris Paschalidis
+- arisp99
 - Jacquelyn Dunahoe
 - Antonia F. Chen
 - Kyle Alpaugh

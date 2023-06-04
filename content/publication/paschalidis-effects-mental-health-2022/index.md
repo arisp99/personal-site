@@ -1,7 +1,7 @@
 ---
 title: "Effects of Mental Health on PROMIS Scores After Primary THA"
 authors: 
-- Aris Paschalidis
+- arisp99
 - Mehdi S. Salimy
 - Matthew G. Robinson
 - Antonia F. Chen

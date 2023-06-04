@@ -2,7 +2,7 @@
 title: "The Not-So-Distant Future or Just Hype? Utilizing Machine Learning To Predict 30-Day Post-Operative Complications In Laparoscopic Colectomy Patients"
 authors: 
 - Constantine S. Velmahos
-- Aris Paschalidis
+- arisp99
 - Charudutt N. Paranjape
 author_notes: ""
 date: "2023-03-04"

@@ -6,6 +6,7 @@ authors:
 - Charudutt N. Paranjape
 author_notes: ""
 date: "2023-03-04"
+doi: "10.1177/00031348231167397"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2023-03-04
@@ -21,10 +22,30 @@ publication: "*The American Surgeon*"
 publication_short: ""
 
 # Abstract and optional shortened version
-abstract: ""
+abstract: "
+**Background:**
+Complex machine learning (ML) models have revolutionized predictions in clinical
+care. However, for laparoscopic colectomy (LC), prediction of morbidity by ML
+has not been adequately analyzed nor compared against traditional logistic
+regression (LR) models.\n\n
+**Methods:**
+All LC patients, between 2017 and 2019, in the National Surgical Quality
+Improvement Program (NSQIP) were identified. A composite outcome of 17 variables
+defined any post-operative morbidity. Seven of the most common complications
+were additionally analyzed. Three ML models (Random Forests, XGBoost, and
+L1-L2-RFE) were compared with LR.\n\n
+**Results:**
+Random Forests, XGBoost, and L1-L2-RFE predicted 30-day post-operative morbidity
+with average area under the curve (AUC): .709, .712, and .712, respectively. LR
+predicted morbidity with AUC = .712. Septic shock was predicted with AUC ≤ .9,
+by ML and LR.\n\n
+**Conclusion:**
+There was negligible difference in the predictive ability of ML and LR in
+post-LC morbidity prediction. Possibly, the computational power of ML cannot be
+realized in limited datasets."
 summary: ""
 
-tags: ""
+tags: ["artificial intelligence", "colorectal surgery", "laparoscopic colectomy", "machine learning", "prediction models"]
 featured: false
 
 # Links

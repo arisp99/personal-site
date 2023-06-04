@@ -10,7 +10,7 @@ headless: true
 weight: 40
 
 title: Publications
-subtitle: ''
+subtitle: 'Search through all [publications](./publication/).'
 
 content:
   # Filter on criteria
@@ -21,7 +21,7 @@ content:
     category: ''
     publication_type: ''
     author: ''
-    exclude_featured: true
+    exclude_featured: false
     exclude_future: false
     exclude_past: false
   # Choose how many pages you would like to display (0 = all pages)
@@ -36,6 +36,8 @@ design:
   columns: '2'
 ---
 
+<!--
 {{% callout note %}}
-Quickly discover relevant content by [filtering publications](./publication/).
+Filter through all [publications](./publication/).
 {{% /callout %}}
+-->

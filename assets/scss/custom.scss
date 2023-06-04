@@ -25,13 +25,15 @@
   text-decoration: none !important;
   color: $sta-link-hover;
   cursor: pointer;
-  transition: color 0.6s !important;
-  transition: border-bottom 0.6s !important;
+  transition-property: color, border-bottom;
+  transition-duration: 0.6s;
 }
 
 /*************************************************
  *  Buttons
  **************************************************/
+
+$button-color: #212529;
 
 // General button settings
 .btn {
@@ -51,8 +53,8 @@
 
 // Publication buttons
 .btn-sm {
-  color: #212529;
-  border-color: #212529;
+  color: $button-color;
+  border-color: $button-color;
   border-radius: 6px !important;
   transition: 0.6s !important;
 }
@@ -152,6 +154,39 @@ pre:hover > .clipboard-button {
   // If we want a solid heart, can change the html to be fa fa-heart instead of
   // far-heart. We can set the fill color using the below.
   // fill: $sta-link;
+}
+
+/*************************************************
+ *  Callouts
+ **************************************************/
+
+.article-style aside p::before,
+div.alert > div:first-child::before {
+  color: $sta-link;
+}
+
+.article-style aside a,
+div.alert a {
+  color: unset;
+  border-bottom: 1.5px $sta-link solid;
+  text-decoration: none;
+}
+
+.article-style aside a,
+div.alert a:hover {
+  color: $sta-link-hover;
+  border-bottom: 1.5px $sta-link-hover solid;
+  cursor: pointer;
+  transition-property: color, border-bottom;
+  transition-duration: 0.6s;
+}
+
+.article-style aside,
+.alert-note {
+  color: $button-color;
+  background-color: $sta-home-section-even;
+  border-color: $button-color;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
 }
 
 /*************************************************

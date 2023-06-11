@@ -14,8 +14,8 @@ publishDate: 2022-02-21T01:01:19.360866Z
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*JMIR Medical Informatics*"
-publication_short: "*JMIR Med Inform*"
+publication: "*Journal of Medical Internet Research Medical Informatics*"
+publication_short: ""
 
 # Abstract and optional shortened version
 abstract: "

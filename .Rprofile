@@ -7,18 +7,26 @@
 #   base::sys.source("~/.Rprofile", envir = environment())
 # }
 
-# Now set options to customize the behavior of blogdown for this project. Below
-# are a few sample options; for more options, see
+# Set options to customize the behavior of blogdown for this project. See
 # https://bookdown.org/yihui/blogdown/global-options.html
-options(
-  # to automatically serve the site on RStudio startup, set this option to TRUE
-  blogdown.serve_site.startup = FALSE,
-  # to disable knitting Rmd files on save, set this option to FALSE
-  blogdown.knit.on_save = FALSE,
-  # build .Rmd to .html (via Pandoc); to build to Markdown, set this option to 'markdown'
-  blogdown.method = 'markdown',
-  blogdown.ext = ".Rmarkdown"
-)
 
-# fix Hugo version
+# Automatically serve the site on RStudio startup
+options(blogdown.serve_site.startup = TRUE)
+
+# Disable knitting Rmd files on save
+options(blogdown.knit.on_save = FALSE)
+
+# Build .Rmd to Markdown
+options(blogdown.method = 'markdown')
+
+# Set default extension of new posts to .Rmd
+options(blogdown.ext = ".Rmd")
+
+# Set default author for new posts
+options(blogdown.author	= "arisp99")
+
+# Set default locations for new posts
+options(blogdown.subdir = "blog")
+
+# Set Hugo version
 options(blogdown.hugo.version = "0.92.2")

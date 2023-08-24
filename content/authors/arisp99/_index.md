@@ -44,7 +44,7 @@ superuser: true
 title: Aris Paschalidis
 ---
 
-I am a first-year medical student at the UMass Chan Medical School. I am
+I am a second-year medical student at the UMass Chan Medical School. I am
 interested in combining clinical practice and academic medicine to transform
 medicine, inform local-decision making by physicians, and homogenize care by
 leveraging computational techniques.

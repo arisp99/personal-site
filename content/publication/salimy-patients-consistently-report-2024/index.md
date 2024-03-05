@@ -9,7 +9,7 @@ authors:
 - Hany S. Bedair
 - Christopher M. Melnic
 author_notes: ""
-date: "2023-08-10"
+date: "2024-02-01"
 doi: "10.1016/j.arth.2023.08.014"
 
 # Schedule page publish date (NOT publication's date).

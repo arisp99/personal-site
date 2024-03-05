@@ -50,6 +50,10 @@ featured: false
 
 # Links
 links:
+  - icon: biorxiv
+    icon_pack: ai
+    name: Preprint
+    url: "https://www.biorxiv.org/node/2568465.abstract"
   - icon: github
     icon_pack: fab
     name: Code

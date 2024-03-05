@@ -12,7 +12,7 @@ authors:
 date: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2022-06-23
+publishDate: 2024-01-01
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Journal article; 2 = Preprint;

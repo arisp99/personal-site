@@ -15,7 +15,7 @@ publishDate: 2023-10-05
 publication_types: ["6"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Presented at: 2023 UMass Chan Summer Research Program"
+publication: "Presented at: UMass Chan Summer Research Program"
 publication_short: ""
 
 # Abstract and optional shortened version

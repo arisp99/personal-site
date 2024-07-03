@@ -20,7 +20,7 @@ publishDate: 2023-06-04
 publication_types: ["5"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Presented at: New England Orthopedic Society 2023 Spring Meeting"
+publication: "Presented at: New England Orthopedic Society Spring Meeting"
 publication_short: ""
 
 # Abstract and optional shortened version

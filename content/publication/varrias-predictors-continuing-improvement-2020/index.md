@@ -25,7 +25,7 @@ publishDate: 2022-02-21T01:01:19.360334Z
 publication_types: ["6"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Presented at: Heart Rhythm Society 2020 Science"
+publication: "Presented at: Heart Rhythm Society Science"
 publication_short: ""
 
 # Abstract and optional shortened version

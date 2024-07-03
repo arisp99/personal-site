@@ -20,7 +20,7 @@ publishDate: 2023-07-30
 publication_types: ["5"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Presented at: 2023 American Association of Hip and Knee Surgeons Annual Meeting"
+publication: "Presented at: American Association of Hip and Knee Surgeons Annual Meeting"
 publication_short: ""
 
 # Abstract and optional shortened version

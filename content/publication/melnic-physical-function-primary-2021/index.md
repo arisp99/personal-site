@@ -14,7 +14,7 @@ publishDate: 2022-02-21T01:01:19.358043Z
 publication_types: ["6"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Presented at: American Academy of Orthopaedic Surgeons 2021 Annual Meeting"
+publication: "Presented at: American Academy of Orthopaedic Surgeons Annual Meeting"
 publication_short: ""
 
 # Abstract and optional shortened version
